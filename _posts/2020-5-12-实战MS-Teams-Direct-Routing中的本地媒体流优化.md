@@ -63,7 +63,7 @@ Teams的每一通呼叫都会记录机器的子网IP并通过REST API发送到Te
 | X-MS-MediaPath | Example: proxysbc.contoso.com, VNsbc.contoso.com | Order of SBCs that should be used for Media path between the user and target SBC. The final SBC is always last |
 | X-MS-UserSite | usersiteID | String defined by tenant administrator |
 
-![image-20200512122432360](C:\Users\Nemo\Documents\GitHub\tangx007\_posts\实战MS Teams Direct Routing中的本地媒体流优化\image-20200512122432360.png)
+![image-20200512122432360](\_posts\实战MS-Teams-Direct-Routing中的本地媒体流优化\image-20200512122432360.png)
 
 ## 配置步骤
 
