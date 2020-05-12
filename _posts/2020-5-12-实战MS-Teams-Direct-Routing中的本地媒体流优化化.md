@@ -7,7 +7,7 @@ author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - Teams Dirct Routing
+    - Teams-Dirct-Routing
     - 本地媒体流优化
 ---
 # 【未完成】实战MS Teams Direct Routing中的本地媒体流优化
