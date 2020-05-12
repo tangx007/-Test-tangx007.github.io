@@ -7,7 +7,7 @@ author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - Teams-Dirct-Routing
+    - Teams-Direct-Routing
     - 本地媒体流优化
 ---
 # 【未完成】实战MS Teams Direct Routing中的本地媒体流优化
@@ -70,8 +70,8 @@ Teams的每一通呼叫都会记录机器的子网IP并通过REST API发送到Te
 
 ### 首先，我们先登陆到Teams Powershell：
 
-```
-#解决mfa不弹出认证页面的问题
+```powershell
+#解决mfa不弹出认证页面的问题 <br>
 #解决lyncdiscover在内网不解释的问题。OverrideAdminDomain
 $String = "password"
 $username = "user@contoso.onmicrosoft.com"
