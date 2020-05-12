@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      实战MS Teams Direct Routing中的本地媒体流优化
-subtitle:   LMO 媒体流优化
+title:      实战MS Teams Direct Routing
+subtitle:   Local Media Optimization本地媒体流优化
 date:       2020-5-12
 author:  Nemo
 header-img: img/post-bg-universe.jpg
@@ -62,7 +62,7 @@ Teams的每一通呼叫都会记录机器的子网IP并通过REST API发送到Te
 | X-MS-MediaPath | Example: proxysbc.contoso.com, VNsbc.contoso.com | Order of SBCs that should be used for Media path between the user and target SBC. The final SBC is always last |
 | X-MS-UserSite | usersiteID | String defined by tenant administrator |
 
-![image-20200512122432360](/_posts/实战MS-Teams-Direct-Routing中的本地媒体流优化/image-20200512122432360.png)
+![image-20200512122432360](_posts/实战MS-Teams-Direct-Routing中的本地媒体流优化/image-20200512122432360.png)
 
 ## 配置步骤
 
@@ -81,7 +81,9 @@ $Cred = New-Object -TypeName System.Management.Automation.PSCredential -Argument
 $CSSession=New-CsOnlineSession -credential $Cred -OverrideAdminDomain $TenantDomain
 Import-PSSession $cssession -AllowClobber
 ```
-### 接下来，我们根据刚刚说到的站点架构图来配置到Teams上，上面有说到其它LMO会有两场景两模式，但实际的项目中我们很多会用到 Central SBC + Always by pass的组合，而且是比较容易落地的方案，原因为以下“
+### 接下来，我们根据刚刚说到的站点架构图来配置Teams
+
+LMO有两场景两模式，但实际的项目中我们很多会用到 Central SBC + Always by pass的组合，而且是比较容易落地的方案，原因为以下：
 
 - 如果用Proxy SBC的方案，子站点的SBC都需要用认证的SBC （除非是全新的部署，不然很难说服客户重新使用其它SBC）
 - 从理论上来看，Proxy SBC的方案的确是优化了不了媒体流的路径，但配置难度比较大（Teams上面的站点信息配置，两台SBC之间的对接配置，Proxy SBC的配置，等）。
@@ -109,7 +111,7 @@ Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “S
 
 最后就是长成以下架构图：
 
-![image-20200512124823433](C:\Users\Nemo\Documents\GitHub\tangx007\_posts\实战MS Teams Direct Routing中的本地媒体流优化\image-20200512124823433.png)
+![image-20200512124823433](_posts/实战MS-Teams-Direct-Routing中的本地媒体流优化/image-20200512124823433.png)
 
 效果就是每一通Teams Direct Routing 呼叫都会带有X-MS包关传递给SBC来做路由处理：
 
