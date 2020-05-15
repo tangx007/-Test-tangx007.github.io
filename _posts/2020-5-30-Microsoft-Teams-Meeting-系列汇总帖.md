@@ -20,7 +20,7 @@ tags:
 
 接着，我来简单回顾一下这些系列文章的内容吧：
 
-### [(1) - 把MS Ignite PPT拿到手](https://blog.51cto.com/nemotan/2459826)
+### [(1) 把MS Ignite PPT拿到手](https://blog.51cto.com/nemotan/2459826)
 
 Ignite  2019作为微软的年度技术大会，里面的视频与PPT资料想必大家都是非常乐意去拿到的，以此为开端先用另类的方法来下载这个材料来编写本系列文章。相比使用Powershell脚本下载来说，文章里面提到的方法是简单，粗暴，直观，可行，无技术含量的下载方法，同时你又可以学到Excel的新技能Power Query，一举两得。
 
@@ -36,7 +36,7 @@ Ignite  2019作为微软的年度技术大会，里面的视频与PPT资料想�
 
 让MTR来助力你的会议室标准化，让用户进入到哪间会议室都是同样的会议体验与有相同优秀的会议质量。
 
-### (5) [让Skype 用户尝鲜使用Teams Meeting](https://blog.51cto.com/nemotan/2469989)
+### [(5) 让Skype 用户尝鲜使用Teams Meeting](https://blog.51cto.com/nemotan/2469989)
 
 为了让之前的Skype用户可以尝鲜体验Teams Meeting, 本文详细介绍了什么是Meeting First, 以及如何来开启Meeting First这功能。
 
