@@ -10,7 +10,7 @@ tags:
     - Teams-Direct-Routing
     - 本地媒体流优化
 ---
-# 【未完成】实战MS Teams Direct Routing中的本地媒体流优化
+> 未完成之作
 
 在之一篇文章当中，简单介绍了MS Teams DR Local Media Optimization （LMO） 本地媒体流优化的两种主要场景与两个LMO模式，我们来回顾一下：
 
@@ -70,8 +70,8 @@ Teams的每一通呼叫都会记录机器的子网IP并通过REST API发送到Te
 
 ### 首先，我们先登陆到Teams Powershell：
 
-```powershell
-#解决mfa不弹出认证页面的问题 <br>
+```
+#解决mfa不弹出认证页面的问题
 #解决lyncdiscover在内网不解释的问题。OverrideAdminDomain
 $String = "password"
 $username = "user@contoso.onmicrosoft.com"
@@ -91,9 +91,9 @@ LMO有两场景两模式，但实际的项目中我们很多会用到 Central SB
 - 如果使用【Proxy SBC的场景】的话，就是所有鸡蛋放在一个篮子里面，一旦Proxy SBC中断，所有用户的语音服务都受到影响。
 - 必须使用【Proxy SBC的场景】的情况是分支站点缺乏公网IP资源 或 没有本地的Internet 那就需要用Proxy SBC来解决了，只是现实情况是不是特别可能吧？
 
-## 那说了那么多，我们用以下命令来配置 Central SBC的方案吧，非常简单：
+### 那说了那么多，我们用以下命令来配置 Central SBC的方案吧，非常简单：
 
-```powershell
+```
 # Step1, 首先配置信任IP，代表每一台Proxy SBC or Central SBC的公网IP，告诉Phone System需要做LMO的SBC IP是多少。
 New-CsTenantTrustedIPAddress -IPAddress 172.16.240.133 -MaskBits 32 -Description "Singapore site trusted IP"
 
