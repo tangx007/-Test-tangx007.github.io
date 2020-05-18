@@ -30,7 +30,7 @@ tags:
 
 - **线上直播**，Live Events, 这是一种特别的大型会议：与会者之间是没有即时的互动的，只能通过Q&A功能向演讲者提问，适用于培训，演讲，发布产品，宣讲等，可达1万人参与。
 
-[![image](https://s1.51cto.com/images/blog/202001/07/495e5dfc908a9c37691227de54cc4374.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/3cc52b8166964cfa4743ba0e62edabaf.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/20200518172316.png)
 
 刚刚讲到事前已计划好的结构化会议时，提到会议的生命周期 Teams Meeting Lifecycle , 它分为：
 
@@ -38,54 +38,62 @@ tags:
 - **会议中**，使用Teams Meeting 中的各种协作功能进行流畅的会议，如桌面共享，微软白板，实时字幕，不同终端的接入（电脑，APP，PSTN接入等），会议笔记…
 - **会议后**，大家回顾会议记录，在Stream 中在线查看会议录像而无须担心录像掉失（这个工作原理在后续的Blog中会有详述），通过关键字搜索特定的会议内容。
 
-[![image](https://s1.51cto.com/images/blog/202001/07/2b589d9c405e81783006fe7fd3ac70cf.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/1f1b6e34394eea00c4cf1793ed3ca931.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+[![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/2b589d9c405e81783006fe7fd3ac70cf.png)](https://s1.51cto.com/images/blog/202001/07/1f1b6e34394eea00c4cf1793ed3ca931.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
 
 以下是一个关于会议前的沟通与准备，当预约好一场Teams Meeting 后，各参会者其实就可以利用Chat, Files, Notes, Whiteboard开始事先沟通，把该说的说，该准备的文档上传，审核，讨论
 
 可能到开始会议的时候，大家就是确认一下没有问题就可以结束会议，非常高效。
 
-[![image](https://s1.51cto.com/images/blog/202001/07/79aa0cd417140427571507fa9e5cb46d.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/72a8d18372d9c60ed75db1063662ec6a.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+[![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/79aa0cd417140427571507fa9e5cb46d.png)](https://s1.51cto.com/images/blog/202001/07/72a8d18372d9c60ed75db1063662ec6a.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
 
 以下会介绍一些在会议开始前（Pre joint meeting stage）准备的实用功能
 
 进行一次test call，以确保扬声器与麦克风的工作是正常的：
 
-[![image](https://s1.51cto.com/images/blog/202001/07/3343934ade4c4b4a562036c1e357410c.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/bbb70e16d17840b6704de759213c3531.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+[![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/3343934ade4c4b4a562036c1e357410c.png)](https://s1.51cto.com/images/blog/202001/07/bbb70e16d17840b6704de759213c3531.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
 
 在加入会议前，还可以打开一个非常高大尚的功能：背景模糊 blur，当你不想展示当前会议的背景时，这项功能非常实现，例如在家开会，在咖啡厅，在高铁上，等等。
 
-[![image](https://s1.51cto.com/images/blog/202001/07/5f264aa869a81f82729b1efe979588bc.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/8b9e535b52b4bbae17e150976bd463f1.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+> 关于自定义背景，请参考我这一篇文章：[在Teams Meeting中自定义你的背景（不挑硬件）](https://blog.51cto.com/nemotan/2488666)
+
+[![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/5f264aa869a81f82729b1efe979588bc.png)](https://s1.51cto.com/images/blog/202001/07/8b9e535b52b4bbae17e150976bd463f1.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
 
 在Ignite2019大会上面，微软的工程师也为我们展示了另一项基于blur的内测功能：设定你的背景，在一次与微软同事的Teams Meeting当中我已经体验过这一神奇的功能
 
-[![image](https://s1.51cto.com/images/blog/202001/07/7215eadac86e81807c3893c0fc561571.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/62e9a22aad32547277d928d6cc5a9a8e.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/7215eadac86e81807c3893c0fc561571.png)
 
 接着，为大家展示也另一项跟AI有关系的功能：live caption 实时字幕，对于我们这些英语学不好的人来说是大大福音，以后再也不怕与老外开会了。
 
-[![SNAGHTML205884](https://s1.51cto.com/images/blog/202001/07/c6d889b20bdf5a69144fbffae177dccf.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/81bb4c4a7f92afc4149922a9ab43ce5b.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/c6d889b20bdf5a69144fbffae177dccf.png)
 
-基本功能：share ppt
+### 共享PPT
 
-[![image](https://s1.51cto.com/images/blog/202001/07/f7db7c4ca46a7f0b7882674ca58ded33.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/384a78cc502d54b59516aefee14e8182.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/f7db7c4ca46a7f0b7882674ca58ded33.png)
 
-[![image](https://s1.51cto.com/images/blog/202001/07/0fdfacf63bbb3130a6bf696f309082f2.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/8b113068a37b374e2ed5c0748ab668e3.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/0fdfacf63bbb3130a6bf696f309082f2.png)
+
+### 会议录像
 
 非常实用的功能：会议录像，同时它在把录像存放在Microsoft Steams 上面而不是在用户的本地硬盘，这样会议结束后，所以与会者都会收到会议录制完成的通知，而不用主持人把录像传播给他们，本人是认为很方便，很实用的功能。
 
-[![image](https://s1.51cto.com/images/blog/202001/07/77f47eb5d0248a5ce1f22e2f5400ce0a.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/5e45ac399bc81b2c61ca99d1fc1c36d3.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/77f47eb5d0248a5ce1f22e2f5400ce0a.png)
+
+### 基于Teams频道的会议
 
 在上文中提到其中一种会议类型：基于Teams频道的会议，它是如何被召开的呢，如下：
 
-[![image](https://s1.51cto.com/images/blog/202001/07/640a4038ca9dada13aa2559d2bff86d0.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/f4f475084b86603a0d6940516eafd0d5.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/640a4038ca9dada13aa2559d2bff86d0.png)
 
-[![image](https://s1.51cto.com/images/blog/202001/07/272049f602ad1ad226f1d702d70e6291.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/86dd3daf122eee66e5e0cdfcce46c103.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/272049f602ad1ad226f1d702d70e6291.png)
+
+### 拨入式电话会议
 
 因为Teams Meeting都是基于互联网的，如果没有互联网的话，如果加入Teams Meeting呢？答案是使用拨入式电话会议（audio  conferencing），一旦管理员为你分配了audio conferencing  许可并完成配置后，你组织的会议就会多出以下图片中的信息（包括了接入号与会议室ID），与会者通过拨打这个电话号码就可进入这个Teams  Meeting 了（之前接触过SFB的同学应该是非常熟悉不过的）
 
-[![image](https://s1.51cto.com/images/blog/202001/07/3b55c1e0bca27f78dd3b1e965066a519.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)](https://s1.51cto.com/images/blog/202001/07/4e59331beae99434ff5103a9d06d6e9d.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/3b55c1e0bca27f78dd3b1e965066a519.png)
 
 最后，介绍了一些主要的Teams Meeting 的概念与核心功能后，是不是对于它有一些初步的认识呢？用起来呢，才能感觉到它是如何为了提升协作效率而生的。
 
 以下列举了一些为什么要使用Teams Meeting 的理由，供参考。
 
-[![image](https://s1.51cto.com/images/blog/202001/07/72732c5c13f1924589970759f7b9c1aa.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)(https://s1.51cto.com/images/blog/202001/07/cdb4b477032ae6b9d0e1fd182e4176a1.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/72732c5c13f1924589970759f7b9c1aa.png)
