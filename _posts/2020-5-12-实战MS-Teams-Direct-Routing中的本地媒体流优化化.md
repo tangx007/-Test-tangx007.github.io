@@ -12,6 +12,8 @@ tags:
 ---
 > 未完成之作
 
+### 本地媒体流优化回顾
+
 在之一篇文章当中，简单介绍了MS Teams DR Local Media Optimization （LMO） 本地媒体流优化的两种主要场景与两个LMO模式，我们来回顾一下：
 
 1. 场景一，**【单台Central SBC的场景】**
@@ -25,29 +27,11 @@ tags:
    *路径是这样的 Teams Client >> Vietnam SBC >> PSTN*
 
 4. 模式二，**Only for local user mode**：若Vietnam配置了这种模式，则只有VN子网的用户媒体流会直接流经VN SBC，其他情况（在企业外部，在Indonesia子网，在SPG子网）的用户媒体流都会通过Proxy SBC的
-
-   *VN子网的媒体流路径： VN Teams Client  >> Vietnam SBC >> PSTN*
-
-```sequence
-# 例如：
-VN内网用户 --> VN子网: media flow
-```
+*VN子网的媒体流路径： VN Teams Client  >> Vietnam SBC >> PSTN*
 
    *IDN子网的媒体流路径： IDN Teams Client  >> SPG SBC >> Vietnam SBC >> PSTN*
 
    *SPG子网的媒体流路径： SPG Teams Client  >> SPG SBC >> Vietnam SBC >> PSTN*
-
-
-```sequence
-# 例如：
-外网用户 --> SPG子网: media flow
-SPG子网 --> VN子网:
-```
-```sequence
-# 例如：
-IDN用户 --> SPG子网: media flow
-SPG子网 --> VN子网:
-```
 
 ## Teams上面的站点逻辑
 
@@ -68,7 +52,7 @@ Teams的每一通呼叫都会记录机器的子网IP并通过REST API发送到Te
 
 所以针对上面的逻辑，配置本地媒体流优化需要有以下这些步骤（你可以使用Teams Admin Portal 或者 Powershell）
 
-### 首先，我们先登陆到Teams Powershell：
+**首先，我们先登陆到Teams Powershell：**
 
 ```
 #解决mfa不弹出认证页面的问题
@@ -81,7 +65,7 @@ $Cred = New-Object -TypeName System.Management.Automation.PSCredential -Argument
 $CSSession=New-CsOnlineSession -credential $Cred -OverrideAdminDomain $TenantDomain
 Import-PSSession $cssession -AllowClobber
 ```
-### 接下来，我们根据刚刚说到的站点架构图来配置Teams
+**接下来，我们根据刚刚说到的站点架构图来配置Teams**
 
 LMO有两场景两模式，但实际的项目中我们很多会用到 Central SBC + Always by pass的组合，而且是比较容易落地的方案，原因为以下：
 
@@ -91,7 +75,7 @@ LMO有两场景两模式，但实际的项目中我们很多会用到 Central SB
 - 如果使用【Proxy SBC的场景】的话，就是所有鸡蛋放在一个篮子里面，一旦Proxy SBC中断，所有用户的语音服务都受到影响。
 - 必须使用【Proxy SBC的场景】的情况是分支站点缺乏公网IP资源 或 没有本地的Internet 那就需要用Proxy SBC来解决了，只是现实情况是不是特别可能吧？
 
-### 那说了那么多，我们用以下命令来配置 Central SBC的方案吧，非常简单：
+**那说了那么多，我们用以下命令来配置 Central SBC的方案吧，非常简单：**
 
 ```
 # Step1, 首先配置信任IP，代表每一台Proxy SBC or Central SBC的公网IP，告诉Phone System需要做LMO的SBC IP是多少。
