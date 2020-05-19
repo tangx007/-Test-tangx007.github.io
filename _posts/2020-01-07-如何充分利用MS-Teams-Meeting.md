@@ -20,6 +20,8 @@ tags:
 
 所有这些就是本文所要介绍的Microsoft Teams Meeting, 充分利用它，为你带来前所未有的会议协作体验。
 
+### 四种会议类型
+
 在MS Teams Meeting 中，会分为四种会议类型，分别为
 
 - **事前已计划好的结构化会议**，利用Teams日历，Outlook日历事先预约好企业内部与外部参会者，推荐使用这种结构化的会议，它可以有完整的会议生命周期以帮助你召开高效的会议（会前，会中，会后）
@@ -31,6 +33,8 @@ tags:
 - **线上直播**，Live Events, 这是一种特别的大型会议：与会者之间是没有即时的互动的，只能通过Q&A功能向演讲者提问，适用于培训，演讲，发布产品，宣讲等，可达1万人参与。
 
 ![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/20200518172316.png)
+
+### 会议生命周期（前-中-后）
 
 刚刚讲到事前已计划好的结构化会议时，提到会议的生命周期 Teams Meeting Lifecycle , 它分为：
 
@@ -51,6 +55,8 @@ tags:
 进行一次test call，以确保扬声器与麦克风的工作是正常的：
 
 [![](https://raw.githubusercontent.com/tangx007/tangx007.github.io/master/img/3343934ade4c4b4a562036c1e357410c.png)](https://s1.51cto.com/images/blog/202001/07/bbb70e16d17840b6704de759213c3531.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+
+### 背景模糊
 
 在加入会议前，还可以打开一个非常高大尚的功能：背景模糊 blur，当你不想展示当前会议的背景时，这项功能非常实现，例如在家开会，在咖啡厅，在高铁上，等等。
 
