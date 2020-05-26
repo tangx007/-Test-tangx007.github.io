@@ -46,7 +46,7 @@ Teams的每一通呼叫都会记录机器的子网IP并通过REST API发送到Te
 | X-MS-MediaPath | Example: proxysbc.contoso.com, VNsbc.contoso.com | Order of SBCs that should be used for Media path between the user and target SBC. The final SBC is always last |
 | X-MS-UserSite | usersiteID | String defined by tenant administrator |
 
-![image-20200512122432360](https://github.com/tangx007/tangx007.github.io/raw/master/_posts/%E5%AE%9E%E6%88%98MS-Teams-Direct-Routing%E4%B8%AD%E7%9A%84%E6%9C%AC%E5%9C%B0%E5%AA%92%E4%BD%93%E6%B5%81%E4%BC%98%E5%8C%96/image-20200512122432360.png)
+![image-20200512122432360](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/_posts/%E5%AE%9E%E6%88%98MS-Teams-Direct-Routing%E4%B8%AD%E7%9A%84%E6%9C%AC%E5%9C%B0%E5%AA%92%E4%BD%93%E6%B5%81%E4%BC%98%E5%8C%96/image-20200512122432360.png)
 
 ## 配置步骤
 
@@ -95,11 +95,11 @@ Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “S
 
 最后就是长成以下架构图：
 
-![image-20200512124823433](_posts/实战MS-Teams-Direct-Routing中的本地媒体流优化/image-20200512124823433.png)
+![image-20200512124823433](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/_posts/实战MS-Teams-Direct-Routing中的本地媒体流优化/image-20200512124823433.png)
 
 效果就是每一通Teams Direct Routing 呼叫都会带有X-MS包关传递给SBC来做路由处理：
 
-![image-20200512122432360](C:\Users\Nemo\Documents\GitHub\tangx007\_posts\实战MS Teams Direct Routing中的本地媒体流优化\image-20200512122432360.png)
+![image-20200512122432360](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/_posts/实战MS-Teams-Direct-Routing中的本地媒体流优化/image-20200512122432360.png)
 
 
 
