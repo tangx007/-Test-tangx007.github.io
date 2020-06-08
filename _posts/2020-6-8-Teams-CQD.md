@@ -55,8 +55,6 @@ mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 
 <img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608123920.png" style="zoom:50%;" />
 
-## 
-
 ## 如何配置？
 
 基本上没有什么配置，安装完毕之后直接打开刚才下载的模板，即可连接到Teams并拉取数据到PowerBI里面了，如下图：
