@@ -2,7 +2,7 @@
 layout:     post
 title:      使用Power BI来抓取Microsoft Teams中的呼叫数据
 subtitle:  Microsoft Call Quality Power BI Connector
-date:       2020-5-20
+date:       2020-6-8
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
