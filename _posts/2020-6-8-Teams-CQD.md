@@ -38,7 +38,7 @@ IT管理员总是会想如何挖掘一个系统的后台数据，以帮忙他们
 接着创建文件夹，如下
 
 ```cmd
-mkdir '.\Power BI Desktop\Custom Connectors'
+mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 ```
 
 <img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608123346.png" style="zoom:50%;" />
