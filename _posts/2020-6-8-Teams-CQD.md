@@ -76,20 +76,18 @@ mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608154832.png)
 
-![image-20200608154927883](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200608154927883.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608171133.png)
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608154955.png)
 
-![image-20200608155107627](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200608155107627.png)
-
-
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608171153.png)
 
 ### CQD Location Enhanced Report.pbit
 基于物理位置(用户的子网与会议室)的CQD报告。
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608160040.png)
 
-![image-20200608160648019](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200608160648019.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608171302.png)
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608160746.png)
 
@@ -114,7 +112,9 @@ mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 特别说明，通过这份报告我们可以拿到Direct Routing中三个非常重要的数据 Jitter, PacketLoss, Round Trip，这样我们就非常直观地知道我们的DR链路的质量情况了
 
 **Jitter** – Is the millisecond measure of variation in network propagation delay  time computed between two endpoints using RTCP (The RTP Control  Protocol).
+
 **Packet Loss** – Is a measure of packet that failed to arrive; it is computed between two endpoints.
+
 **Latency** - (Also known as round trip time) is the length of time it takes for a  signal to be sent plus the length of time it takes for the  acknowledgment of that signal to be received. This time delay consists of the propagation times between the two points of a signal.
 
 ### CQD Summary Report.pbit
@@ -130,7 +130,7 @@ mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 
 会议质量
 
-![image-20200608164800611](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200608164800611.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608171457.png)
 
 还有一报告，如P2P 质量，会议可靠性，P2P 可靠性，会议 RMC，P2P RMC，基本上都是换一下PowerBI中的度量值而已，在此就不多截图，大家自己安装来玩玩。
 
@@ -149,6 +149,8 @@ mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 参考：
 
 [Introducing Microsoft Call Quality Power BI Connector (aka CQD Power BI Connector)](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-call-quality-power-bi-connector-aka-cqd/ba-p/1236863) 
+
 [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-the-advanced-call-quality-dashboard/ba-p/972586) 
+
 [Use Power BI to analyze CQD data for Microsoft Teams](https://docs.microsoft.com/zh-cn/microsoftteams/cqd-power-bi-query-templates)
 
