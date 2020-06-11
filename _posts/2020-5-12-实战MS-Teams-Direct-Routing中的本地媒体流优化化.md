@@ -104,3 +104,5 @@ Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “S
 
 
 > # 【未完】在SBC侧的配置如何？
+>
+> ![image-20200611122928690](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200611122928690.png)
