@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Teams会议室中的新秀
+title:      Microsoft Teams会议室中的新秀
 subtitle:  Collaboration Bar
 date:       2020-6-11
 author:  Nemo
@@ -16,11 +16,11 @@ tags:
 >
 >  *可以通过以下链接填写相关信息，我们会自动将你加入社区*
 >
->  *https://aka.ms/jointeamsdevcommunity*
+>  [*https://aka.ms/jointeamsdevcommunity*]()
 >
 >  *可以通过以下链接收看“Teams Friday下午茶”技术分享*
 >
->  *https://aka.ms/teamsfriday*
+>  [*https://aka.ms/teamsfriday*]()
 
 ### 这是什么东西？
 
@@ -108,7 +108,7 @@ https://www.poly.com/cn/zh/products/video-conferencing/studio/studio-x50
 
 这就是collaboration bar的特色，专门设计来进行白板协作与提升会议的交互体验
 
-<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611164352979.png" alt="image-20200611164352979" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611164352979.png" alt="image-20200611164352979"  />
 
 ### 使用Teams后台进行设备管理
 
