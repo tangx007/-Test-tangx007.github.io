@@ -76,15 +76,15 @@ tags:
 
 接着为用户分配VRP策略：
 
-![image-20200611115838759](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200611115838759.png)
+![image-20200611115838759](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611115838759.png)
 
 最后我们来为用户分配Phone System 许可，打开企业语音，分配电话号码，这三个任务都需要使用命令来完成
 
 登陆Teams Powershell
 
-```powershell
-$String = "Godwind123"
-$username = "tangx@ucssi.com"
+```
+$String = "yourpassword"
+$username = "tangx@contosso.com"
 $TenantDomain = "contoso.onmicrosoft.com"
 Import-Module SkypeOnlineConnector;$PWord = ConvertTo-SecureString -String $String -AsPlainText -Force;
 $Cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $username, $PWord;
@@ -94,11 +94,11 @@ Import-PSSession $cssession -AllowClobber
 
 分配许可
 
-![image-20200611134103450](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611134103450.png)
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611134103450.png" alt="image-20200611134103450" style="zoom: 33%;" />
 
 打开企业语音，分配电话号码
 
-```powershell
+```
 $user = "tangx@contoso.com"
 Set-CsUser $user -OnPremLineURI 'tel:+861088888888'
 Set-CsUser $user -EnterpriseVoiceEnabled $true
@@ -106,4 +106,4 @@ Set-CsUser $user -EnterpriseVoiceEnabled $true
 
 最后，我们就可以在Teams上面看到Teams Dial  Pad的出现，也就意味着在Teams端的配置完成了，所有这些操作我们都可以申请一个国际版的Office 365进行测试，就算没有Phone  System许可也是可以的，因为大不了启用不了EV，不影响我们实战操作，最终的效果如下：
 
-![image-20200611134153596](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611134153596.png)
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611134153596.png" alt="image-20200611134153596" style="zoom:50%;" />
