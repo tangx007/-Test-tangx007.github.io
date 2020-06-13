@@ -78,7 +78,21 @@ mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608171133.png)
 
+有没有发现Building栏位是空的，那么你可以一些位置与子网的对齐关系上传到Teams, 这样的话报表会更加直观
+
+> 参考：[Add and update reporting labels](https://docs.microsoft.com/en-US/microsoftteams/learn-more-about-site-upload?WT.mc_id=TeamsAdminCenterCSH)
+>
+> csv模板：[sample template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
+
+仔细阅读上面的参考文章，把制作好的csv上传到Teams即可
+
+![image-20200612100233451](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200612100233451.png)
+
+
+
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608154955.png)
+
+
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200608171153.png)
 
@@ -103,9 +117,9 @@ mkdir 'c:\Users\xxxxx\Documentesktop\Custom Connectors'
 
 ![Screenshot: PSTN CQD report](https://docs.microsoft.com/zh-cn/microsoftteams/media/cqd-pstn-report1.png)
 
-![屏幕截图： PSTN CQD 报表](https://docs.microsoft.com/zh-cn/microsoftteams/media/cqd-pstn-report2.png)
+![屏幕截图： PSTN CQD 报表](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/cqd-pstn-report2.png)
 
-![屏幕截图： PSTN CQD 报表](https://docs.microsoft.com/zh-cn/microsoftteams/media/cqd-pstn-report3.png)
+![屏幕截图： PSTN CQD 报表](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/cqd-pstn-report3.png)
 
 ![屏幕截图： PSTN CQD 报表](https://docs.microsoft.com/zh-cn/microsoftteams/media/cqd-pstn-report6.png)
 

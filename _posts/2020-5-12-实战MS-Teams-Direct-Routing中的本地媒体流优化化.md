@@ -106,3 +106,15 @@ Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “S
 > # 【未完】在SBC侧的配置如何？
 >
 > ![image-20200611122928690](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200611122928690.png)
+
+为什么要使用ICE Lite? The SBC must offer only one candidate that is publicly reachable. Currently, only IPV4 candidates are supported.
+
+https://docs.microsoft.com/en-us/microsoftteams/direct-routing-protocols-media#ice-lite-requirements
+
+https://www.msxfaq.de/teams/pbx/ice_lite.htm
+
+
+
+> 参考
+>
+> https://www.msxfaq.de/teams/pbx/teams_local_media_optimization.htm
