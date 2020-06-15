@@ -1,18 +1,18 @@
 ---
 layout:     post
-title:      Microsoft Teams Voice语音落地系列-3 实战:拨号计划的配置
-subtitle:  xxx
-date:       2020-5-20
+title:      Microsoft Teams Voice语音落地系列-3 
+subtitle:  实战:拨号计划的配置
+date:       2019-6-22
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams-Meeting
+- Teams-Voice
 - 
 ---
 
-> 你是如何评价这篇文章的？用一句很简单的话
+
 
 上一节我们讨论了所有用于Teams语音落地的前置条件准备，一齐来回顾一下：
 1)	权限与管理员准备：O365管理员/Teams管理员；SBC管理员；本地Skype管理员；网络管理员；DNS/CA管理员；
