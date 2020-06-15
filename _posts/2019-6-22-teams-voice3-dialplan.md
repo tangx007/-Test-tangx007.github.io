@@ -57,9 +57,11 @@ Set-CsTenantHybridConfiguration  -UseOnPremDialPlan $false
 接下来开始配置Teams Dial Plan, 即拨号计划，它的作用是拨号计划是一组命名规范化规则，它将单个用户拨打的电话号码转换为通用的格式（通常为E.164），以便进行呼叫授权和呼叫路由，通俗一点就是把用户的拨号习惯转换成一组通用的格式，例如：
 
 以Skype为例，当用户输入手机号码 159xxxxx 之后，系统会自动通过正则表达式把该号码转换成 +86159xxxxxxx , 这个规则叫做 Normalization Rule ，作用就是进行呼叫授权与呼叫路由（下文的语音路由配置将会使用这个转换来进行路由）
+
 ![image-20200613153656290](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613153656290.png)
 
 那么，多条Normalization Rule 就组成了一份Dial Plan, 例如：
+
 ![image-20200613153847480](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613153847480.png) 
 
 更加具体的解释，可参考如下：
@@ -72,12 +74,19 @@ https://docs.microsoft.com/en-us/microsoftteams/what-are-dial-plans
 -	什么是用户拨号习惯，例如 国际长途拨00xxxxxx, 本地拨8位数字，外地拨 区号+地方号，手机拨 11位数字…
 
 2）	号码转换规范要遵从E.164的号码标准。
--	E164是国际公共电信编号计划，这是个国际标准的电话号码格式，详细如下：
-https://www.itu.int/rec/T-REC-E.164-201011-I/en
--	为什么要使用 E.164呢？1. 国际标准 2. 方便与公司其它的PBX系统对接，如果它们也使用同样的标准的话 3. 外资公司的AD信息一般都录入成E.164标准的, 这样会方便你在Teams上面进行快速拨号 4. 别人一看配置就知道你的配置专业与否 5. 最后就是Teams上面强制使用E164标准
--	不知道使用skype for business on premise的同学能不能感受到不使用E.164的疼苦
--	E.164格式的话，我个人的理解很简单，凡是以 + 号开头的号码就可以认为是 E164标准，但后面带的数字又有不同的意思，举例说明一下：
-![image-20200613153913574](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613153913574.png)接下来开始真正配置，将会配置一个非常简单的拨号计划（即输入的任何数字都在前面加上一个 + 号），即 12345678 ---> +12345678 （更加复杂的拨号计划会另起一节讲述）
+- E164是国际公共电信编号计划，这是个国际标准的电话号码格式，详细如下：
+  https://www.itu.int/rec/T-REC-E.164-201011-I/en
+
+- 为什么要使用 E.164呢？1. 国际标准 2. 方便与公司其它的PBX系统对接，如果它们也使用同样的标准的话 3. 外资公司的AD信息一般都录入成E.164标准的, 这样会方便你在Teams上面进行快速拨号 4. 别人一看配置就知道你的配置专业与否 5. 最后就是Teams上面强制使用E164标准
+
+- 不知道使用skype for business on premise的同学能不能感受到不使用E.164的疼苦
+
+- E.164格式的话，我个人的理解很简单，凡是以 + 号开头的号码就可以认为是 E164标准，但后面带的数字又有不同的意思，举例说明一下：
+
+  ![image-20200613153913574](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613153913574.png)
+
+
+接下来开始真正配置，将会配置一个非常简单的拨号计划（即输入的任何数字都在前面加上一个 + 号），即 12345678 ---> +12345678 （更加复杂的拨号计划会另起一节讲述）
 
 如下图，新建一条Dial Plan, 并且新建转换规则并赋值到 $NR 上面
 ```
@@ -98,12 +107,16 @@ Set-CsTenantDialPlan -Identity $DPParent -NormalizationRules @{add=$NR}
 Grant-CsTenantDialPlan -PolicyName $DPParent -Identity tangx@ucssi.com
 ```
 
-![image-20200613154444964](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613154444964.png)上面是分配Dial Plan, 但其实是还没有这么快生效的，我们使用如下命令测试是否生效：Get-CsEffectiveTenantDialPlan
+![image-20200613154444964](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613154444964.png)
+
+上面是分配Dial Plan, 但其实是还没有这么快生效的，我们使用如下命令测试是否生效：Get-CsEffectiveTenantDialPlan
+
 ```
 #测试Dial Plan
 Get-CsEffectiveTenantDialPlan -Identity tangx@ucssi.com | Test-CsEffectiveTenantDialPlan -DialedNumber 15975733668   
 ```
+![image-20200613154500644](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200613154500644.png)
 
-![image-20200613154500644](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200613154500644.png)一旦你看到上面的拨号计划按照你配置的正则表达式那样转换号码的话，即表明Dial Plan生效了。至此，我们简单的拨号计划就做完并生效了，但实际的项目中，我们需要把Dial Plan进一步地细分以满足不同的用户习惯，一般我会这样细分出来：短号，市内，国内长途，本地手机，外地手机，Toll Free, 国际长途 （未来将会有一节专门讲述）
+一旦你看到上面的拨号计划按照你配置的正则表达式那样转换号码的话，即表明Dial Plan生效了。至此，我们简单的拨号计划就做完并生效了，但实际的项目中，我们需要把Dial Plan进一步地细分以满足不同的用户习惯，一般我会这样细分出来：短号，市内，国内长途，本地手机，外地手机，Toll Free, 国际长途 （未来将会有一节专门讲述）
 
 本节我们认识到了什么是拨号计划，什么是E.164标准，拨号计划的重要性等；在下一节我们将继续“语音路由配置“，其中的逻辑与Skype for Business 一样有点复杂，大家敬请期待。
