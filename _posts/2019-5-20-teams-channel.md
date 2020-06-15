@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Teams Channel - 连接区块链电子发票的最后一公里
-subtitle:  xxx
-date:       2020-5-20
+subtitle:  
+date:       2019-5-20
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -38,7 +38,7 @@ tags:
 
 如下图，点击编辑详细信息
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\v33333a39eeab809b463a336d8fe1296de2f3c.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/v33333a39eeab809b463a336d8fe1296de2f3c.png)
 
 在里面，你就可以把这个发票相关的频道邮件地址给复制出来
 
@@ -46,7 +46,7 @@ tags:
 
 接着，打开刚刚生成出来的区块链电子发票，如下图把它发送到Teams Channel里面。
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\v44443728447767747341482b5f37255eddc3.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/v44443728447767747341482b5f37255eddc3.png)
 
 接着，在你的Teams APP里面就可以即可收到你从微信上面发送过来的电子发票了，同时你就可以即时记录下是基于什么项目出差的。
 

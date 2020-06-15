@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Microsoft Teams Voice语音落地系列-1 
-subtitle:  架构简述
-date:       2020-01-20
+subtitle:  语音架构简述
+date:       2019-6-20
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -12,9 +12,7 @@ tags:
 - 
 ---
 
-> 你是如何评价这篇文章的？用一句很简单的话
-
-> 本系列从51cto迁移过来，发布时间全改为2020年1月20号，为武汉抗疫致敬~！
+> **本系列从51cto迁移过来，为武汉抗疫致敬~！**
 
 在阅读本文之前，相信大家已经对Microsoft Teams这个产品有所了解或已经在用了，可以参考[@王远：Teams的前世今生](https://blog.51cto.com/scnbwy/2375777?from=timeline)的文章，大概的产品迭代如下图，可以看出微软的重心已经慢慢地跟着Satya的战略：mobile-first, cloud-first 转移到云端。直到现在的Microsoft Teams已经是一个纯云产品，同时也将未来几年时间替代Skype for  Business。
 
@@ -30,8 +28,6 @@ tags:
 
 我把这类问题归纳为Microsoft Teams语音落地（就是Teams的电话功能），所以本系列文章主要围绕这个话题展开的，同时这项技术也是客户从SFB迁移到Teams之前必须考虑的事情之一，不然迁上去后大家都不能打电话，这问题就大了。
 
-### 几种语音落地的路径：MS Teams <--> MS Phone System<-->Local SBC
-
 首先要介绍Microsoft Phone System, 它是位于O365中的一套电话系统，使用它可以让Skype for  Business online 或者 Teams可以获得与本地SBC建立SIP  Trunk的能力，这样的话，Teams上面的呼叫就有机会路由到本地SBC了。
 
 ![image-20200613151549886](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613151549886.png)
@@ -43,9 +39,8 @@ Microsoft Teams Direct Routing，是能允许您将SBC连接Microsoft Phone Syst
 
 那么通过Direct Routing, 我们可以直接让你的Teams用户能打电话出去，电话又能打进来，同时Teams也能与你本地的PBX系统互通了，说更简单点就是：我的Teams可以打电话啦。
 
-现在不是流行BYOD吗？那么Direct Routing就是Bring Your Own SIP Trunk (BYOS)
+现在不是流行BYOD吗？那么Direct Routing就是Bring Your Own SIP Trunk (BYOS)，下面我们来看看几种使用Microsoft Phone System的场景：
 
-下面，我们来看看几种使用Microsoft Phone System的场景：
 1）使用SBC前置：Upstream；如下图，本地的SBC与Phone System建立了Direct Routing的连接（SIP  Trunk），同时SBC也连接着本地PBX与本地PSTN网络。这样就可实现Teams  Voice中最主要，最基本的功能：电话的打进打出与本地PBX互联。
 
 ![image-20200613151619330](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200613151619330.png)
