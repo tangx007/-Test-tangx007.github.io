@@ -1,0 +1,65 @@
+---
+layout:     post
+title:      安装Skype for Business Server 2019 CU2之前，您需要知道的一件事
+subtitle:  xxx
+date:       2020-5-20
+author:  Nemo
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:
+
+- Teams-Meeting
+- 
+---
+
+> 你是如何评价这篇文章的？用一句很简单的话
+
+最新SFB2019 CU2更新出来了，看起来修复了好多东西，下文中我标黄的KB应该是可以值得关注的，大家可以考虑一下升级这个CU.
+
+但发布这篇文章的重点在于从SFB2019 CU1开始，它的安装步骤与SFB2015/Lync2013有一点点的不同（大坑），如果没有看清楚安装说明就会出大问题。
+
+与SFB2015  CU的安装差别就在于第三步需要把一些前置功能安装上（用于使用最新的SFB控制面板，基于HTML5技术无须再安装Silverlight）。假设不安装这些前置条件有影响吗？功能上面没有影响，服务也是正常的，但是如果你想再次运行SFB Setup来更新组件的时候，就会报前置条件还没有安装完整的错误。
+
+到这里，同学又要问了：大不了把前置条件上不就行了吗？对的。
+
+但是大坑来了，如果你的环境是从Lync or SFB2015 升级到SFB2019的时候，我们是需要做一次迁移CMS的工作（Move-CsManagementServer）, 它会自动进行一系列的自动化迁移工作，最后一步就是自动跑一次bootstrapper.exe同时把SFB前置功能组件都检查一次，杯具的事情来了，由于你安装了CU2但没有把前置功能都安装上，导致CMS迁移失败，报错，同时如果你想再迁移CMS也是迁移不成功的。
+
+![image-20200614161003543](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200614161003543.png)
+
+所以安装SFB2019 CU之前，务必把以下功能都安装一次：
+
+```
+Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc,  Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext,  Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries,  Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression,  Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45,  Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat,  Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client,  BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase,  Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
+```
+
+下载链接：https://www.microsoft.com/en-us/download/details.aspx?id=58347
+
+Knowledge Base: [KB4470124](https://support.microsoft.com/en-us/help/4470124/updates-for-skype-for-business-server-2019) ： https://support.microsoft.com/en-us/help/4470124/updates-for-skype-for-business-server-2019
+
+以下具体的更新内容供各位参考 This update fixes the following issues:
+
+- [4525498 Ability to add server roles in tri-existence mode will be blocked in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4525498)
+- [4525496 Skype for Business Server 2019 continues to write to CLS ETL even after CLS logging is stopped](https://support.microsoft.com/en-us/help/4525496)
+- [4507233 Enterprise users can't request control of an anonymous user's shared screen in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4507233)
+- [4507232 Resuming a PSTN call that was put on hold results in one-way audio in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4507232)
+- [4510851  SCOM SQL alerts are created every hour on SQL secondary replica server  if "Always On" for Monitoring server is set in Skype for Business Server  2019](https://support.microsoft.com/en-us/help/4510851)
+- [4510844 Can't find the response group agent that's synced from an existing distribution list in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4510844)
+- [4510855 Can’t edit interactive RGS workflows via the web interface in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4510855)
+- [4526182 In-a-meeting and Presenting presence states are available for UCWA clients in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4526182)
+- [4510850 Skype for Business on Mac user's latest photo can't be seen until signing in to a Windows client in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4510850)
+- [4510846  "InstallDatabaseInternalFailure: An internal error has occurred…" error  when you install new databases in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4510846)
+- [4525504 bootstrapper.exe doesn’t work in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4525504)
+- [4511313 "Too many outstanding requests for a single user" error occurs on Front-End servers in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4511313)
+- [4532748 New registry key "\SOFTWARE\Microsoft\ExchangeServer\v15\MSExchange OWA" for Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4532748)
+- [4503584 “The Audio/Video Conferencing Server has failed to create a conference” error (ID 32005) occurs on Audio/Video Conferencing Server in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4503584)
+- [4525500  Users who’re not Enterprise Voice enabled can dial out when  PreventPSTNTollBypass is true in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4525500)
+- [4525499  Call forwarding and voice mail not working for LBR users who're signed  out of all clients in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4525499)
+- [4518680 Can’t transfer external calls by using Polycom VVX phones in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4518680)
+- [4510847 Rate My Call on UCWA clients still shows in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4510847)
+- [4525503 Support Skype Meetings App loading the latest source from CDN if ECS request fails in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4525503)
+- [4487817 Conversation History time stamp in Outlook differs from the time stamp of UCWA clients in Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4487817)
+
+
+
+
+
