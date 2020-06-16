@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Microsoft Teams Voice语音落地系列-3 
-subtitle:  实战:拨号计划的配置
+subtitle:  实战-拨号计划的配置
 date:       2019-6-22
 author:  Nemo
 header-img: img/post-bg-universe.jpg
@@ -15,19 +15,30 @@ tags:
 
 
 上一节我们讨论了所有用于Teams语音落地的前置条件准备，一齐来回顾一下：
-1)	权限与管理员准备：O365管理员/Teams管理员；SBC管理员；本地Skype管理员；网络管理员；DNS/CA管理员；
-2)	许可准备：E3+Phone System Lic or E5 lic; SBC中必要的SIP Lic;；
-3)	连接到SFB Online Powershell；
-4)	连接到Office 365 Powershell；
-5)	已经在O365注册了，并已激活的公司域名；
-6)	准备好用于SBC的公网IP与公网FQDN，并做好了公网DNS A记录；
-7)	准备好含SBC FQDN的公网证书；
-8)	已经制作好相关的防火墙规则，同时网络管理员确认正确；
-9)	使用了认证的SBC，并已升级至最新的固件版本；
-10)	若对安全有更好的要求，可以在SBC中配置ACL；
+
+1. 1权限与管理员准备：O365管理员/Teams管理员；SBC管理员；本地Skype管理员；网络管理员；DNS/CA管理员；
+
+2. 许可准备：E3+Phone System Lic or E5 lic; SBC中必要的SIP Lic;；
+   连接到SFB Online Powershell；
+
+3. 连接到Office 365 Powershell；
+
+4. 已经在O365注册了，并已激活的公司域名；
+
+5. 准备好用于SBC的公网IP与公网FQDN，并做好了公网DNS A记录；
+
+6. 准备好含SBC FQDN的公网证书；
+
+7. 已经制作好相关的防火墙规则，同时网络管理员确认正确；
+
+8. 使用了认证的SBC，并已升级至最新的固件版本；
+
+9. 若对安全有更好的要求，可以在SBC中配置ACL；
+
 以上这些如果你缺了一样，可以预见后面的配置是报错百出，困难重重呀。
 
 接下来这一节，我们将Step by Step地讲述在Teams上面配置拨号计划与语音路由的全过程，其中的逻辑与Skype for Business on premise的语音路由配置基本一样，但是在Teams上面却没有GUI可以配置，只能通过命令来配置，但这样更加有助于大家理解其中的路由逻辑，所以我们就老老实实用命令配置，烧烧脑吧。
+
 首先，先连接到Office 365 Powershell, 需要注意的是如果你使用了MFA的认证方式，在Connect-MsolService的时候不能加入 Credential参数，否则的话Powershell无法弹出二次认证的页面了，如下：
 
 ```
@@ -38,7 +49,10 @@ $Cred = New-Object -TypeName System.Management.Automation.PSCredential -Argument
 Connect-MsolService -Credential $Cred
 ```
 连接到Skype for Business online Powershell, 用于进行Teams的相关配置。
-其中我在New-CsOnlineSession的时候加入了OverrideAdminDomain的参数，主要填写O365租户的域名（如 PoCcontoso.onmicrosoft.com），这样让你避免了这样一个问题：登陆的时候，Powershell在内网会自动发现 Lyncdiscover.xxxx.com域名，但一般正常的Skype on premise混合部署时可能没有使用这个域名，这会导致你用Powershell在内网登陆时失败，如下：
+
+其中我在New-CsOnlineSession的时候加入了OverrideAdminDomain的参数，主要填写O365租户的域名（如 PoCcontoso.onmicrosoft.com），这样让你避免了这样一个问题：登陆的时候，
+
+Powershell在内网会自动发现 Lyncdiscover.xxxx.com域名，但一般正常的Skype on premise混合部署时可能没有使用这个域名，这会导致你用Powershell在内网登陆时失败，如下：
 
 ```
 $String = "xxxxxxxx"
@@ -99,6 +113,7 @@ $NR += New-CsVoiceNormalizationRule -Name 'CN-Shanghai-All' -Parent $DPParent -P
  ![image-20200613154423250](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613154423250.png)
 
 把$NR里面的值增加到Dial Plan的转换规则列表里面，为什么这样呢？因为上文有述，多条转换规则组成了一个Dial Plan; 
+
 然后把Dial Plan 应用到相关的用户即可 （Grant-CsTenantDialPlan），最后用Get-CsOnlineUser查询一下是否分配成功，如下：
 
 ```

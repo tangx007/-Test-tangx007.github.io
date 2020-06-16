@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Microsoft Teams大中华技术社区
+title:      Microsoft Teams大中华技术社区活动
 subtitle:  2019年度总结大会回顾
 date:       2020-1-11
 author:  Nemo
@@ -8,7 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- 大中华技术社区
+- 大中华技术社区活动
 - 
 ---
 

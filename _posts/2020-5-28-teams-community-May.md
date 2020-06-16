@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Microsoft Teams 大中华技术社区会议
+title:      Microsoft Teams 大中华技术社区活动
 subtitle:  五月份的功能更新
 date:       2020-5-28
 author:  Nemo
@@ -8,8 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams
-- Microsoft-Teams-大中华技术社区会议
+- 大中华技术社区活动
 ---
 
 > 官方链接

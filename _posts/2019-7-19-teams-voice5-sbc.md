@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Microsoft Teams Voice语音落地系列-5
-subtitle:  实战: Sonus语音网关配置
+subtitle:  实战-Sonus语音网关配置
 date:       2019-7-19
 author:  Nemo
 header-img: img/post-bg-universe.jpg
@@ -11,8 +11,6 @@ tags:
 - Teams-Voice
 - 
 ---
-
-
 
 上一节中我们在Teams上面用命令配置好了Voice Routing Policy并分配给用户，理论上这时他的Teams UI上面的拨号盘就会出现。同时我们也建立好了PSTN Gateway,  这样子 Phone System >>> 本地语音网关的SIP Trunk 就做好了，从Teams  管理员中心上面可以看到这条SIP Trunk的状态，如下：
 

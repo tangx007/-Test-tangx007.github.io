@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      微软 Teams Meeting 系列(4) 把MS Teams Room 成为企业的生产力工具
-subtitle:  xxx
-date:       2020-5-20
+title:      微软 Teams Meeting 系列(4) 
+subtitle:  把MS Teams Room 成为企业的生产力工具
+date:       2020-02-06
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -12,9 +12,7 @@ tags:
 - 
 ---
 
-> 你是如何评价这篇文章的？用一句很简单的话
-
-本文是基于MS Ignite 2019 MTG30 Microsoft Teams Rooms deployment for an inclusive and enhanced meeting room 的课程视频整理而成的。
+> 本文是基于MS Ignite 2019 MTG30 Microsoft Teams Rooms deployment for an inclusive and enhanced meeting room 的课程视频整理而成的。
 
 在本系列的之前几个文章中，已经简介过Teams Meeting 的一些重要功能了，那本文将会介绍一下Teams Meeting 是如何来做企业的会议室标准化，以及把它成为企业的生产力工具而不是一件摆设。
 
@@ -73,35 +71,32 @@ MTR实现会议室的协作性：
 
 当开展一场MTR会议的时候，把主持人的电脑屏幕投到本地的显示大屏，或者远程的与会者电脑上面是很必要的，在MTR控制屏的后方会有一个HDMI IN的接口，只要直接连接到电话的HDMI 口即可把电脑的桌面投到本地以及整个个Teams会议当中，以便所以本地与远程与者的交互。
 
-
-
 在MTR当中，还可以进行白板交互：
 
-\- 如果配合一块可触摸的显示大屏，就可以使用MS Whiteboard来与多个远程与会者进行电子白板交互
+- 如果配合一块可触摸的显示大屏，就可以使用MS Whiteboard来与多个远程与会者进行电子白板交互
 
-\- 如果你只有一场普通的白板呢，当然没有问题，在MTR当中只有使用合适的内容照相机（如下）也能把白板的内容投影到Teams Meeting当中，请参考 *3
+- 如果你只有一场普通的白板呢，当然没有问题，在MTR当中只有使用合适的内容照相机（如下）也能把白板的内容投影到Teams Meeting当中，请参考 *3
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\p6666a1523fb709ef0aae94959a1776afe041.png)
+
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/p6666a1523fb709ef0aae94959a1776afe041.png)
 
 > 20200615注：在小型会议室的场景，Teams的会议室设备还有一款叫Collaboration Bar的产品
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\p777717f0c070815584b651b280666df22846.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/p777717f0c070815584b651b280666df22846.png)
 
-![]()
-
-最后来总结一下为什么要选择MTR？
+总结一下为什么要选择MTR？
 
 1） 所有的MTR会议室的入会体验都是一致的：一键进入预约好的会议，经过Teams认证音视频设备带来身临其境的会议体验。
 
 2）让Teams Room成为企业的一个重要生产力工具，或生产力场所。
 
-3）使用HDMI IN接入电脑即可把电脑桌面共享出来
+3）使用HDMI IN接入电脑即可把电脑桌面共享出来。
 
 4）灵活多样的MTR硬件可选。
 
 5）还是MTR的会议体验一致。
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\p9999e4af87703c1dcfadb60c8e9d05bda3f6.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/p9999e4af87703c1dcfadb60c8e9d05bda3f6.png)
 
 最后，在Teams Admin Center还可以对MTR的进行设备管理与控制
 
@@ -110,9 +105,9 @@ MTR实现会议室的协作性：
 > 可参考：[Teams会议室中的新秀-Collaboration Bar](https://tangx007.github.io/2020/06/11/Teams-CollaBar-X50/
 > )
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\p-106930979751b739a59aee9f58e2f342c4.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/p-106930979751b739a59aee9f58e2f342c4.png)
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\p-11f861871eba28ab992d7d42c2ab411cff.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/p-11f861871eba28ab992d7d42c2ab411cff.png)
 
 参考链接：
 

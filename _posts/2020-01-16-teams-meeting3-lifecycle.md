@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      微软 Teams Meeting 系列(3) Teams Meeting 会议生命周期中的功能更新
-subtitle:  xxx
-date:       2020-5-20
+title:      微软 Teams Meeting 系列(3) 
+subtitle:  Teams Meeting 会议生命周期中的功能更新
+date:       2020-01-16
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -12,9 +12,7 @@ tags:
 - 
 ---
 
-> 你是如何评价这篇文章的？用一句很简单的话
-
-本文是基于MS Ignite 2019 MTG20 What’s New for Microsoft Teams Meetings 的课程视频整理而成的。
+> 本文是基于MS Ignite 2019 MTG20 What’s New for Microsoft Teams Meetings 的课程视频整理而成的。
 
 在Microsoft Teams Meeting 中微软对这种云会议增加了很多新的功能，所以为了顺利地使用或利用好MS  Teams，我们可以优先使用Teams中的会议功能。那么 Teams 是如何使用会议更加有效率的呢？在使用Teams  Meeting过程中，可以通过使用不同的提高效率的功能，让它更有效率地使用Teams  Meeting，而它们分布在会前，会中，会后的整个会议生命周期中，我整理了一下给大家参考：
 
@@ -50,34 +48,31 @@ tags:
 
 以下为大家展示上面提到的一些会议功能:
 
-
-
-自由地固定任意与会议者的视频 
+- 自由地固定任意与会议者的视频 。
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/L22227300565877f76470682f7e3bacc7fcb0.png)
 
-使用Chrome，可以无插件地进行Teams Meeting, 进行音视频，进行桌面共享
+- 使用Chrome，可以无插件地进行Teams Meeting, 进行音视频，进行桌面共享。
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/L33336db5bef94236a1349a3c1e0647ff7d87.png)
 
-在Chrome中共享桌面
+- 在Chrome中共享桌面。
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/L43ed98bba2a403a3c5f690ce58eb0faac.png)
 
-但如果你使用的是Firefox的话，不好意思，就做不到音视频会议了
+- 但如果你使用的是Firefox的话，不好意思，就做不到音视频会议。
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/L55556621b85ca9d9f4b70c9106c271828edc.png)
 
-音频呼叫走PSTN Call, 数据与协作走网络，确保会议顺利进行
+- 音频呼叫走PSTN Call, 数据与协作走网络，确保会议顺利进行。
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\L66683d3924b4a46045f9e610dacd3ff7eb3.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/L66683d3924b4a46045f9e610dacd3ff7eb3.png)
 
-啸叫避免，可以主动地检测到你是否在Teams Room会议室当趾，避免了你的电脑与会议室中的麦克风与喇叭产生啸叫
+- 啸叫避免，可以主动地检测到你是否在Teams Room会议室当趾，避免你的电脑与会议室中的麦克风与喇叭产生啸叫。
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/L777736746c05f3c80b25d7d2a259ca34bcba.png)
 
-啸叫主叫消除
+- 啸叫主叫消除
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/L8880c18ac4d5cec6c1344edf0fae079609c.png)
 
-希望Teams可以让你带来更多更有效率的体验
