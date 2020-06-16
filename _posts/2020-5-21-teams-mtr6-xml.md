@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      玩转Microsoft Teams Room系列 5
+title:      玩转Microsoft Teams Room系列(6) 
 subtitle:  通过XML批量配置 Microsoft Teams Room
 date:       2020-5-21
 author:  Nemo

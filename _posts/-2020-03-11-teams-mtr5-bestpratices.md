@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      玩转Microsoft Teams Room系列(5)
-subtitle:  云视频会议室的10大最佳实践（Microsoft Teams Room 篇）
+subtitle:   云视频会议室的10大最佳实践（Microsoft Teams Room 篇）
 date:       2020-03-11
 author:  Nemo
 header-img: img/post-bg-universe.jpg
