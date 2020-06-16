@@ -29,7 +29,7 @@ tags:
 
 ### MMS如何运作的呢？
 
-![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image_thumb2.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/061610d82eafeebc7610b4c313f915d64ec6.png)
 
 1. MMS 在该用户的Exchange邮箱中搜索该用户的所有会议。
 2. 根据用户邮箱中的信息，MMS 找到用户的Skype Meeting or Teams Meeting.

@@ -20,7 +20,7 @@ tags:
 
 关于Teams的Meeting First, 就是让Skype用户在迁移到Teams的过程中，首先把Meeting的功能迁移到Teams上面，并完全使用Teams Meeting 来进行会议。
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb21.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image_thumb21.png)
 
 在本文中，大家会学习到以下这些点：
 
@@ -45,7 +45,7 @@ tags:
 - 如果你也计划着把Skype迁移到Teams的话，可能需要一步一步来把特定功能先迁移到Teams, 而不是一刀切的话。
 - 适合一些已经部署的SFB，并且使用得好好的企业，但他们需要尝试使用Teams。
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb20.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image_thumb20.png)
 
 接着，一旦决定使用了Teams Meeting First 之后, 从客户端的角色来看，会有如何的变化与体验呢？
 
@@ -55,7 +55,7 @@ tags:
 4. 用户之前已经预约好的Skype Meeting将会自动使用Meeting Migration Service (MMS) 服务把它们迁移至 Teams Meeting，以至于大家都可以统一使用Teams Meeting，请参考 *3
 5. Skype 与 Teams, 将各自各的独立地运行，而没有功能上面的冲突。
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image16_thumb5.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image16_thumb5.png)
 
 最后一个话题是关于Meeting First的部署（非常简单），但我们首先来简单说明一下从Skype 迁移到Teams 的几种模式
 
@@ -63,19 +63,19 @@ tags:
 
 1）第一种是使用Island Mode, 岛屿模式，这是微软推荐的使用模式并且也是默认的模式，可以让Skype与Teams两者独立的工作，所以它们俩就有会一些功能重叠在一起让用户在使用上面造成困惑了, 例如
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb9.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image_thumb9.png)
 
 2）第二种是使用Skype for Business w/ Collaboration & Meetings Mode （本文就是重点讲述这种模式来尝鲜使用Teams Meeting）
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb11.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image_thumb11.png)
 
 3）第三种是 Teams Only Mode，一旦使用本模式后Skype 将会无法使用，并将会把所有功能迁移至Teams, 这也是微软的最终目的
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb15.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/06160568d1790ddfdf584989fb705b68bf98.png)
 
 下图把三种主要的模式做了一个汇总，希望能否更加深入地了解各种迁移路径：
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb23.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/061648f33c62ce31d7ecdf0c930485bf7b21.png)
 
 设置Meeting First非常简单，登陆Teams Admin Center, 如下图把Teams共存模式改为Skype for Business 与 Teams协作和会议 即可，值得注意的是：
 
@@ -83,7 +83,7 @@ tags:
 2. MMS只适用于Exchange online的 Teams User. 请参考* 3
 3. MMS迁移过程至少需要90分钟到120分钟左右，请参考 *4
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image19_thumb.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image19_thumb.png)
 
 使用Powershell命令：
 
@@ -101,14 +101,14 @@ Import-PSSession $cssession –AllowClobber
 Get-CsonlineUser tangx@ucssi.onmicrosoft.com | fl *teamsupgrade*
 ```
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb25.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image_thumb25.png)
 
 ```
 #为用户分配SfBWithTeamsCollabAndMeetingsWithNotify 模式
 Grant-CsTeamsUpgradePolicy -Identity tangx@ucssi.onmicrosoft.com -PolicyName SfBWithTeamsCollabAndMeetingsWithNotify
 ```
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\image_thumb28.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image_thumb28.png)
 
 以下为全局修改：
 
