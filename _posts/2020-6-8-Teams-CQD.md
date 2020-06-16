@@ -9,7 +9,7 @@ catalog: true
 tags:
 
 - Teams-CQD
-- PowerBI
+- 
 
 ---
 

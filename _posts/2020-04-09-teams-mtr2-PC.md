@@ -12,8 +12,6 @@ tags:
 - 
 ---
 
-> 你
-
 > 本文介绍如何使用CreateSrsMedia.ps1来创建MTR安装镜像并安装
 
 在上 一节当中，我们使用了一个方便的PowerShell 脚本SkypeRoomProvisioningScript.ps1 创建了两个MS Teams Room 会议室帐号（其实就Exchange资源帐号），接下来这一节我会介绍一下把MTRAPP 安装到Intel NUC小主机当中，先介绍一下这个架构：

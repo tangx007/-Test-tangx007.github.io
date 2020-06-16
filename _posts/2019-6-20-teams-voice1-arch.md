@@ -43,7 +43,7 @@ Microsoft Teams Direct Routing，是能允许您将SBC连接Microsoft Phone Syst
 
 1）使用SBC前置：Upstream；如下图，本地的SBC与Phone System建立了Direct Routing的连接（SIP  Trunk），同时SBC也连接着本地PBX与本地PSTN网络。这样就可实现Teams  Voice中最主要，最基本的功能：电话的打进打出与本地PBX互联。
 
-![image-20200613151619330](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200613151619330.png)
+![image-20200613151619330](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613151619330.png)
 
 下图的红色与黑色分别说明了信令与媒体的流向，这种没有媒体旁路的方法让媒体流都从Phone System上面绕一圈再回来，而没有直接流向SBC。
 
@@ -53,7 +53,7 @@ Microsoft Teams Direct Routing，是能允许您将SBC连接Microsoft Phone Syst
 
 但是当启用了媒体旁路后，媒体流就直接在内网流向SBC，大大提升了语音的质量和外网的不稳定性，非常高兴的是最近微软已经把Media Bypass在主流的认证SBC上面都支持了：https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-border-controllers
 
-![image-20200613151746831](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200613151746831.png)
+![image-20200613151746831](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613151746831.png)
 
 从下图可以看出，主流的两家认证SBC厂家都支持媒体旁路了：
 
@@ -63,7 +63,7 @@ Microsoft Teams Direct Routing，是能允许您将SBC连接Microsoft Phone Syst
 
 以下的Cloud PBX已改名为Phone System，从下图可以看出要实现SFB云端用户的语音落地要增加一个CCE的角色（边缘服务+媒体中介），相对于Teams的Direct Routing来说就是麻烦了一点点, 增加了本地的运维压力
 
-![image-20200613151801369](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200613151801369.png)
+![image-20200613151801369](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200613151801369.png)
 
 重要的东西来了：SFB online要语音落地，必须要有CCE (一套云连接器) ，同时不能使用Direct Routing。如果强制要用SFB Online来使用Direct Routing的话，会出现有时无法打电话的问题，所以信令类似于以下：
 Teams---> Phone System --> Local SBC
