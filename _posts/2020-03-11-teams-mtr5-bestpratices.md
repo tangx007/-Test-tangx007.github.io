@@ -9,7 +9,7 @@ tags:
 
 - Teams-Room
 - 
-
+---
 > 使用最佳实践可以指导大家在规划MTR会议室时避免一些不必要的坑
 >
 > 本文参考：MS Ignite 2019 Tap into better meetings THR2114
@@ -36,7 +36,7 @@ tags:
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/bp1111image6_thumb14.png)
 
-- [x] Field of view （摄像机的广角范围）
+### 摄像机的广角范围 Field of view 
 
 在会议室里面的与会人员越多，摄像机离他们就会越远，所以需要采用合适的广角范围的摄像机来匹配不同大小的会议室。
 
@@ -50,14 +50,14 @@ tags:
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/bpimage20_thumb4.png)
 
-- [x] Camera tracking （自动摄像头控制）
+### 自动摄像头控制 Camera tracking 
 
 
 在大型会议室中，仅仅安装覆盖会议室所有参与者的一般广角的摄像头是不够的（正如第二点所说），因为远程参与者察觉不到发言人的一些细微动作，所以启用自动对焦技术，使摄像机可以自动对发言进行对焦，让画面视野始终清晰呈现各位与会人员。
 
 说白了这里面需要一台PTZ摄像头，什么是PTZ? Pan/Tilt/Zoom 的简写，代表云台全方位（左右/上下）移动及镜头变倍、变焦控制。通常提到这个词，可以通俗的理解为云台控制。
 
-- [x] Camera placement （摄像头的位置）
+### 摄像头的位置 Camera placement 
 
 
 摄像头的放置位置最理想的状态是尽量与眼部位置水平，但这是理想状态；这时可以使用 PTZ 摄像机 ，有助于微调视角。
@@ -70,14 +70,14 @@ tags:
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/bpimage30_thumb4.png)
 
-- [x] Audio（对声音的处理）
+### 对声音的处理 Audio
 
 
 对于声音的处理，是所以做会议室设备厂家考虑的重要焦点，优质高保真的的声音传输，会给整场会议带来非常好的会议体验，就不多说了。主要有这样一些技术：AI自动跟踪取景，背景噪声抑制等；
 
 降噪地毯和墙面消音板进一步消除环境噪音对会议的影响；
 
-- [x] Display Size （交互大屏的大小）
+### Display Size （交互大屏的大小）
 
 
 \- 显示屏的尺寸需要够大，至少55寸以上，可确保会议中的每个人都能轻松在屏幕上看到共享内容。以下是一个尺寸与会议室大小的对比比例，可以按需参考。
@@ -90,19 +90,19 @@ tags:
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/bpimage44_thumb4.png)
 
-- [x] Content Sharing （具有屏幕共享功能）
+### Content Sharing （具有屏幕共享功能）
 
 
 这一点类似于第一点，可以使用MTR系统提供的HDMI IN功能，快速把主持人的桌面投屏到Teams Meeting 与 本地的显示大屏上面。
 
-- [x] Connectivity （各种设备的线缆连接要美观，简洁）
+### Connectivity （各种设备的线缆连接要美观，简洁）
 
 
 可以想像得到，在一个MTR视频会议室的桌面上会有这样一些设备（麦克风，扬声器，HDMI线，VGA线，各种IT外设）然后还有线缆是连接到显示屏，会议电脑主机上面，然后就是各种混乱，不整齐，难于维护。有一个比较好的解决方法是使用hub的方式，分别是display hub 与 table hub , 它们会把显示器，扬声器，摄像头，会议主机的所有线缆都汇聚成一根网线，让显示大屏与会议桌之前的线缆走线显示更加美观，如下图。
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/bpimage49_thumb4.png)
 
-- [x] Room Design（会议室大小）
+### Room Design（会议室大小）
 
 
 其实我觉得这段英文描述针对这个最佳实践没有什么意义，但也列出来供参考，因为一般会议室也不会做成三角形的，一般都是长方形或正方形的会议，所以不合逻辑；
@@ -111,12 +111,12 @@ tags:
 
 ![See the source image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/RE3l6Yy)
 
-- [x] Lighting （减少光线对视频质量的影响）
+### Lighting （减少光线对视频质量的影响）
 
 
 大多数现代会议空间都带有窗户和自然光。 即使在大多数照明条件下，采用最新技术的相机也可以通过优化面部的光平衡并渲染自然的肤色来提供清晰度。 面对走廊的玻璃窗会议室应磨砂，以减少干扰
 
-### 参考链接：
+### 参考链接
 
 *1 微软 Teams Meeting 系列(4) 把MS Teams Room 成为企业的生产力工具 https://blog.51cto.com/nemotan/2469498
 
