@@ -77,3 +77,8 @@ Teams AA 的出现 (Cloud auto attendant)，终于可以原生地实现“二次
 
 ### Microsoft Teams Voice语音落地系列-4-外传2 实战-使用Teams后台管理中心TAC配置语音路由策略 https://tangx007.github.io/2020/06/10/Teams-voice4-3-VoiceRoutingPolicy/
 
+对上一节中，我们通过Teams管理中心把拨号计划创建出来，并分配给用户。
+
+这一节我们会介绍使用管理界面来进行Teams语音路由配置
+
+![image-20200611114143821](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611114143821.png)
