@@ -1,3 +1,4 @@
+---
 layout:     post
 title:      玩转Microsoft Teams Room系列(5)
 subtitle:   云视频会议室的10大最佳实践（Microsoft Teams Room 篇）
@@ -10,6 +11,7 @@ tags:
 - Teams-Room
 - 
 ---
+
 > 使用最佳实践可以指导大家在规划MTR会议室时避免一些不必要的坑
 >
 > 本文参考：MS Ignite 2019 Tap into better meetings THR2114
