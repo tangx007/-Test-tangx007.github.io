@@ -230,8 +230,3 @@ Set-MsolUser –ObjectId xxxxx -Department "Microsoft Communication Application 
 *3 使用Powershell 登陆MS Teams admin Powershell https://blog.51cto.com/nemotan/2481040
 
 *4 Microsoft Teams Voice语音落地系列 -汇总帖 https://blog.51cto.com/nemotan/2420875
-
-
-
-
-

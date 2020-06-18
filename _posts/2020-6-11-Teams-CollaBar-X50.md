@@ -126,5 +126,6 @@ https://www.poly.com/cn/zh/products/video-conferencing/studio/studio-x50
 
 这台机器的优势在于集成度非常高，布线非常简单；同时它可以原生地在后台切换zoom, teams, gotomeeting, poly几个会议平台，相对于其它MTR设备来说应该算是比较大的优势。
 
+### 参考
 
-
+#### Poly Studio X50 https://support.polycom.com/content/support/north-america/usa/en/support/video/poly-studio-x-family/poly-studio-x50.html

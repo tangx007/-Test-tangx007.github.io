@@ -16,7 +16,7 @@ tags:
 
 在MTR的后台设置里面，我们可以设置很多不一样的主题，同时MTR还可以自定义主题，让你的MTR会议与众不同
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\themeimage_thumb14.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/themeimage_thumb14.png)
 
 我们可以通过XML配置文件里面的CustomThemeImageUrl参数来自定义MTR的主题，会这样几步：
 
@@ -27,11 +27,11 @@ tags:
 
 好，我们来一步一步看看怎么做的，先创建一个3840X1080 pixels的空白图片
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\themeimage_thumb17.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/themeimage_thumb17.png)
 
 编辑图片
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\themeimage_thumb20.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/themeimage_thumb20.png)
 
 接着用记事本生成一份XML文件，并把图片一并放在`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`
 
@@ -47,19 +47,19 @@ tags:
 </SkypeSettings>
 ```
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\themeimage_thumb23.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/themeimage_thumb23.png)
 
 配置好并重启MTR之后，用Teamviewer远程进出看看效果：
 
-![8f52f913d96af7b04972d370188977a](C:\Users\Nemo\Documents\GitHub\tangx007\img\theme8f52f913d96af7b04972d370188977a_thum.png)
+![8f52f913d96af7b04972d370188977a](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/theme8f52f913d96af7b04972d370188977a_thum.png)
 
 点进去主题，就可以看到多出一个自义主题了
 
-![0b18efccb6e4940ddb981afe2160f79](C:\Users\Nemo\Documents\GitHub\tangx007\img\theme0b18efccb6e4940ddb981afe2160f79_thum.png)
+![0b18efccb6e4940ddb981afe2160f79](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/theme0b18efccb6e4940ddb981afe2160f79_thum.png)
 
 来看看实际的图片吧，家里的显示屏不够，只有外接一个单屏，但可以看到主题已经成功变了
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\themeimage_thumb25.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/themeimage_thumb25.png)
 
 ### 参考
 

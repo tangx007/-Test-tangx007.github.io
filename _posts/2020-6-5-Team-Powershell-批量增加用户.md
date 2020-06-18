@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      MS Teams 日常管理系列2
+title:      MS Teams 日常管理系列(2)
 subtitle:  使用Teams PowerShell 批量增加用户
 date:       2020-6-5
 author:  Nemo
@@ -8,7 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams-PowerShell 
+- Teams-other
 - 
 ---
 

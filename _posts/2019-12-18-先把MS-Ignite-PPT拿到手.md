@@ -9,7 +9,7 @@ catalog: true
 tags:
 
 - Teams-Meeting
-- Teams会议系列文章
+- 
 ---
 
 > 2020-5-15从51cto迁移至此
@@ -18,7 +18,7 @@ tags:
 
 这个MS Ignite 2019 系列主要针对 Teams Meetings Learning Path Sessions 相关的议题，期待这个系列能在春节前完工啦：
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\m1111118a39e22951768551655a77bceaa7a00a.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/m1111118a39e22951768551655a77bceaa7a00a.png)
 
 其实在网上已经有很多国外大牛们使用Poweshell做成的下载脚本，但不太符合我的习惯（Youtu下载，根据session id下载…..），不太直观，而我需要的是根据关键字下载，可以断点续传，按需下载….开门见山，如下方法：
 
@@ -42,7 +42,7 @@ https://api-myignite.techcommunity.microsoft.com/api/session/all
 - sessionCode  
 - slideDeck  （PPT下载链接）
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\m555557cdd0d72a391b4e8d1bc906b4001f4be.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/m555557cdd0d72a391b4e8d1bc906b4001f4be.png)
 
 3. 接着，在Title字段下筛选出你关心的技术主题，例如我是选择Teams. 其中第四步，PowerQuery会把数据回传给Excel，生成表格:
 

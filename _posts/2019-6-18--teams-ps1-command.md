@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      MS Teams 日常管理系列1
+title:      MS Teams 日常管理系列(1)
 subtitle:  Teams PowerShell 命令详解
 date:       2019-06-18
 author:  Nemo
@@ -8,7 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams-日常管理
+- Teams-other
 - 
 ---
 
@@ -74,7 +74,7 @@ Get-Team -DisplayName "CN-ShenZhen" | Set-Team -Visibility Public
 接下来是增加团队成员，注意为了方便在以下命令中我们使用管道符“|”来指定需要操作的团队，不然你就要在命令中指定很长的GroupId，而且也不容易记住。
 `Get-Team -DisplayName “CN-ShenZhen” | Add-TeamUser -User tangx@xxxxxx.com`
 
-![](C:\Users\Nemo\Documents\GitHub\tangx007\img\329ca999dbde0750addd80ab1f8a2e3c.png)
+![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/329ca999dbde0750addd80ab1f8a2e3c.png)
 
 创建出来的团队应用之后，我们还可以通过Set-Team来修改各种设置（也许这就是上文没有把Team Setting单独列出的原因）
 

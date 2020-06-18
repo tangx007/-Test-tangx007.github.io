@@ -34,7 +34,7 @@ Import-PSSession $sess –DisableNameChecking
 Get-Mailbox tangx_mtr1@ucssi.com | Get-CalendarProcessing | Select *external*
 ```
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\extimage_thumb10.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/extimage_thumb10.png)
 
 所以，我们直接把这个参数改成True就可以了：
 
@@ -44,7 +44,7 @@ Get-Mailbox tangx_mtr1@ucssi.com | Set-CalendarProcessing -ProcessExternalMeetin
 
 最后就可以被外部用户预约上了：
 
-![image](C:\Users\Nemo\Documents\GitHub\tangx007\img\extimage_thumb8.png)
+![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/extimage_thumb8.png)
 
 
 
