@@ -127,7 +127,11 @@ Get-CsTeamsVideoInteropServicePolicy
 
 ![clip_image006](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/rd55555555)
 
+------
 
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />
 
 
 

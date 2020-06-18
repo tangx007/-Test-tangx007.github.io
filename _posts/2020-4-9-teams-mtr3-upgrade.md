@@ -93,7 +93,11 @@ Get-AppxPackage -AllUsers | ?{$_.PackageFamilyName -like '*room*'}
 
 *3 玩转Microsoft Teams Room系列2 - 如何把MTR安装在NUC主机中 https://blog.51cto.com/nemotan/2485928
 
+------
 
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />
 
 
 

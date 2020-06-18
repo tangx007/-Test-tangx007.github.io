@@ -82,3 +82,11 @@ Teams AA 的出现 (Cloud auto attendant)，终于可以原生地实现“二次
 这一节我们会介绍使用管理界面来进行Teams语音路由配置
 
 ![image-20200611114143821](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611114143821.png)
+
+
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

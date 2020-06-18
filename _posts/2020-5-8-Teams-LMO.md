@@ -119,3 +119,9 @@ SGP 子网的媒体流路径： SGP Teams Client >> SGP SBC >> Vietnam SBC >> PS
 - [Local Media Optimization for Direct Routing now available](https://www.linkedin.com/pulse/local-media-optimization-direct-routing-now-available-muravlyannikov/) 
 - [Local Media Optimization for Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-media-optimization) 
 - [关于ICE的比较好解释](https://www.cnblogs.com/pannengzhi/p/5061674.html) 
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

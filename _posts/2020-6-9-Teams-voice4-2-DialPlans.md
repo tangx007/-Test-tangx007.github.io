@@ -113,3 +113,9 @@ New-CsVoiceNormalizationRule -Name 'CN-Beijing-International' -Parent $DPParent 
 请参考上一篇文章：[Microsoft Teams Voice语音落地系列-3 实战:拨号计划的配置](https://blog.51cto.com/nemotan/2383423)
 
 接下来另一篇文章，有了拨号计划之后，就需要做一个语音路由，我将会讲一下如何使用TAC来创建语音路由。
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

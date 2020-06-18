@@ -53,3 +53,9 @@ CP960作为zoom room控制屏
 ![image-20200617153927637](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200617153927637.png)
 
 配置完成之后，只要zoom上面可以选择CP960作为收音与扬音设备即代表插件配对成功，可以正常使用
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

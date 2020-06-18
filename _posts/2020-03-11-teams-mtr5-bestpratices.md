@@ -121,3 +121,9 @@ tags:
 *1 微软 Teams Meeting 系列(4) 把MS Teams Room 成为企业的生产力工具 https://blog.51cto.com/nemotan/2469498
 
 *2 Microsoft Teams Meeting 系列 汇总帖 https://blog.51cto.com/nemotan
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

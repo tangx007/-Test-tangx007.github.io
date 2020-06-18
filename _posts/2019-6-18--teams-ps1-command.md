@@ -8,7 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams-other
+- Teams-Other
 - 
 ---
 
@@ -144,9 +144,8 @@ Get-Team -DisplayName "CN-ShenZhen" | Set-TeamChannel  -CurrentDisplayName "Shen
 
 ![MS Teams 日常管理系列1：Teams PowerShell 命令详解](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/r-135c991244421c507cd46227fcd97ae172.png)
 
+------
 
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
 
-
-
-
-
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

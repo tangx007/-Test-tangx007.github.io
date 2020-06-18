@@ -103,3 +103,9 @@ tags:
 以下列举了一些为什么要使用Teams Meeting 的理由，供参考。
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/72732c5c13f1924589970759f7b9c1aa.png)
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

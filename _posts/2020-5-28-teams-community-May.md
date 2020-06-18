@@ -64,4 +64,8 @@ Teams会议仪表板将会在管理后台出现,这样就可以看到会议中�
 - 允许SBC可以使用内网IP地址，并且通过NAT的方式与M365对接，让它们之间的媒体流可以驻留在企业内网而不需要流经M365（LMO的重点）
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200528173909.png)
 
+------
 
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

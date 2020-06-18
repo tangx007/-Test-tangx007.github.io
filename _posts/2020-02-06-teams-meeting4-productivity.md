@@ -117,7 +117,8 @@ MTR实现会议室的协作性：
 
 *3 Microsoft Teams Rooms Content Camera 革命性更新 https://blog.51cto.com/scnbwy/2434429
 
+------
 
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
 
-
-
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

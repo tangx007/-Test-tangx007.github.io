@@ -135,3 +135,9 @@ Get-CsEffectiveTenantDialPlan -Identity tangx@ucssi.com | Test-CsEffectiveTenant
 一旦你看到上面的拨号计划按照你配置的正则表达式那样转换号码的话，即表明Dial Plan生效了。至此，我们简单的拨号计划就做完并生效了，但实际的项目中，我们需要把Dial Plan进一步地细分以满足不同的用户习惯，一般我会这样细分出来：短号，市内，国内长途，本地手机，外地手机，Toll Free, 国际长途 （未来将会有一节专门讲述）
 
 本节我们认识到了什么是拨号计划，什么是E.164标准，拨号计划的重要性等；在下一节我们将继续“语音路由配置“，其中的逻辑与Skype for Business 一样有点复杂，大家敬请期待。
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

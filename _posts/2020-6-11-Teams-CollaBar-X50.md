@@ -129,3 +129,9 @@ https://www.poly.com/cn/zh/products/video-conferencing/studio/studio-x50
 ### 参考
 
 #### Poly Studio X50 https://support.polycom.com/content/support/north-america/usa/en/support/video/poly-studio-x-family/poly-studio-x50.html
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

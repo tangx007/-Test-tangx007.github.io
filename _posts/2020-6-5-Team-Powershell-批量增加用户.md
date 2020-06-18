@@ -8,7 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams-other
+- Teams-Other
 - 
 ---
 
@@ -82,3 +82,9 @@ foreach($i in $temp)
 所以使用这种方法也可以向Teams团队里面增加用户，就看你的方便了
 
 <img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/20200605173150.png" style="zoom:50%;" />
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

@@ -189,9 +189,16 @@ New-MtrConfigrationFile -HideMeetingName $True -Path D:\
 
 ---
 
+参考：
 
-> 参考：
->
-> - [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](https://docs.microsoft.com/zh-cn/MicrosoftTeams/rooms/xml-config-file) 
-> - [New-MtrConfigrationFile.ps1](https://gist.github.com/jhochwald/7407bc208da4c68cb466ad911a1b68b7)
+[Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](https://docs.microsoft.com/zh-cn/MicrosoftTeams/rooms/xml-config-file) 
 
+New-MtrConfigrationFile.ps1](https://gist.github.com/jhochwald/7407bc208da4c68cb466ad911a1b68b7)
+
+
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

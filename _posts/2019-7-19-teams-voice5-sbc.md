@@ -250,3 +250,9 @@ Teams呼叫Eyebeam的效果：
 ![Microsoft Teams Voice语音落地系列-5 实战: Sonus语音网关配置](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/dr44449abf8a359b79a127d823d55fe8a61bd6.png)
 
 最后，本系列终于写完了，主要就是实现到使用Teams语音落地的本地语音网关，然后我们就可以像Skype那样打电话了，这个功能点很重要，主要是当我们从Skype for  Business上面迁移到Teams的时候，我们的语音也必须确保在Teams上面能用，特别是在中国，UC系统无法拨打外线是比较难以想像的。事实在本系列虽然是Step by  Step地讲述每一个配置步骤，但是也只能起到抛砖引玉的作用，也只能把简单的配置路径点明一下，实际的项目当中会有更多其它的东西需要考虑的，感谢各位。
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

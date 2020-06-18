@@ -8,7 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams-other
+- Teams-Other
 - 
 ---
 
@@ -53,3 +53,9 @@ tags:
 这样做的好处是：一旦发票多起来的时候，Teams Channel可以帮忙你在一个统一的入口来处理你的发票，而不是东一张西一张了
 
 ![](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/v555568b4aa4219af2391c51794e486ebfee9.png)
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

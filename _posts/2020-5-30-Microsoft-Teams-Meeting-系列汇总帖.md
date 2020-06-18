@@ -45,3 +45,9 @@ Ignite  2019作为微软的年度技术大会，里面的视频与PPT资料想�
 详细介绍了MMS这个在线会议迁移服务，以助力Skype用户迁移至Teams.
 
 在这个系列里面，应该还缺一些大家关心的话题，例如 Live Event 实时直播， Teams Meeting的网络要求 等等，希望可以在日后把这些知识模块补全吧。
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

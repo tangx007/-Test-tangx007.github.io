@@ -51,3 +51,9 @@ Teams是一款很优秀的产品，它就像一只八爪鱼一样，连接着Off
 4）Skype for Business on premise的语音落地，跟Teams无关，这也是传统的解决方案，我在这方面有丰富的经验，有需要可以留言。
 
 ![Teams 的逻辑架构与语音解决方案 - Official Posters Download](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/p555553bbf12a18e118babd1dda01b4814388e.png)
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

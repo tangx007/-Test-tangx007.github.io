@@ -90,3 +90,9 @@ https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-micros
 > *可以通过以下链接收看“Teams Friday下午茶”技术分享*
 >
 > *https://aka.ms/teamsfriday*
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />

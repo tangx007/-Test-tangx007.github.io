@@ -81,3 +81,9 @@ SFB Online ---> Local CCE/Onprem SFB ---> Local SBC
 3) 简单介绍了Microsoft Phone System 与 Direct Routing , 其实就是SIP Trunk
 
 未来的章节中，将会深入介绍Teams Direct Routing规划与配置过程中的前置准备，Teams Voice Routing配置，SBC配置，测试等。
+
+------
+
+欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
+
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />
