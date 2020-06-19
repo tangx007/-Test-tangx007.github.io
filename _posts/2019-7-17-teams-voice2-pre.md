@@ -2,7 +2,7 @@
 layout:     post
 title:      Microsoft Teams Voice语音落地系列-2 
 subtitle:  实战-前置条件准备
-date:       2019-6-21
+date:       2019-7-17
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true

@@ -2,7 +2,7 @@
 layout:     post
 title:      MS Teams 日常管理系列(1)
 subtitle:  Teams PowerShell 命令详解
-date:       2019-06-18
+date:       2019-7-18
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true

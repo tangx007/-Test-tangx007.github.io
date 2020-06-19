@@ -2,8 +2,7 @@
 layout:     post
 title:      Microsoft Teams Voice语音落地系列-1 
 subtitle:  语音架构简述
-date:       2019-6-20
-author:  Nemo
+date:       2019-7-16
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
