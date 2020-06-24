@@ -1,7 +1,7 @@
 # Site settings
 title: Nemo Blog
 SEOTitle: 谭国欣的博客 | Nemo Blog
-header-img: img/post-bg-desk.jpg
+header-img: https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/post-bg-desk.jpg
 email: nemotan@139.com
 description: "只要热爱生命，一切都在意料中"
 keyword: "Nemo,Teams"
@@ -74,7 +74,7 @@ kramdown:
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: 8ac97a5e86a7f9fa30e53fe8dcbc48f4
 
 # Google Analytics
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
