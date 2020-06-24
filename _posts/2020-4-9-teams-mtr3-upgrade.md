@@ -45,6 +45,7 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 
 ```
 $temp = 'C:\Program Files (x86)\Skype Room System Deployment Kit\$oem$\$1'
+
 Add-AppxPackage -ForceApplicationShutdown -Path $temp\Rigel\x64\Ship\AppPackages\*\*.appx -DependencyPath (Get-ChildItem $temp\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx | Foreach-Object {$_.FullName})
 ```
 
@@ -52,8 +53,10 @@ Add-AppxPackage -ForceApplicationShutdown -Path $temp\Rigel\x64\Ship\AppPackages
 
 ```
 $creds = New-Object System.Management.Automation.PSCredential ("Skype", (new-object System.Security.SecureString))
+
 reg.exe add "HKLM\System\CurrentControlSet\Control\Lsa" /f /v "LimitBlankPasswordUse" /t REG_DWORD /d 0
 start-process -FilePath powershell.exe -wait -Credential $creds -ArgumentList @("-executionpolicy","Unrestricted","C:\InstallSkype.ps1")
+
 reg.exe add "HKLM\System\CurrentControlSet\Control\Lsa" /f /v "LimitBlankPasswordUse" /t REG_DWORD /d 1
 ```
 
