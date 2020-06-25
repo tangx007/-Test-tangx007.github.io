@@ -1,13 +1,13 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "Nemo Blog",
+  "short_name": "Nemo Blog",
+  "description": "nemotan@139.com",
   "icons": [{
-    "src": "icons/pwa_icon_128.png",
+    "src": "icons/apple-touch-icon.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/pwa_icon_512.png",
+    "src": "icons/apple-touch-icon.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
