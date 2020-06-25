@@ -1,12 +1,13 @@
 # Site settings
 title: Nemo Blog
 SEOTitle: 谭国欣的博客 | Nemo Blog
-header-img: https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/post-bg-desk.jpg
+header-img: img/post-bg-desk.jpg
 email: nemotan@139.com
 description: "只要热爱生命，一切都在意料中"
 keyword: "Nemo,Teams"
 url: "https://tangx007.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+imgbaseurl: "https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/"
 github_repo: "" # you code repository
 
 # Sidebar settings
