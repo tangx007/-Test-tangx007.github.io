@@ -55,6 +55,13 @@ tags:
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/mtrpcimage_thumb9.png)
 
+> ps. 如果你下载回来的windows iso是中文版的话，它的名字应该叫“Windows 10 企业版”，那么脚本会报错说你使用的不是enterprise版本，那么需要改改脚本把enterprise改为企业版，如下：
+>
+>     # The source media must have an image named "Windows 10 Enterprise" in its install.wim
+>     try {
+>         $img = Get-WindowsImage -ImagePath $InstallWim -Name "Windows 10 企业版"
+>     } 
+
 留意一下，它会把U盘制作成一个UEFI启动盘，所以这里有一个坑就是你的Intel NUC里面的BIOS需要调成UEFI的启动模式，不然就启动不了，一般新的BIOS都是这种模式的了。
 
 就制作完了？这么简单？没错，简单吧….
@@ -119,6 +126,7 @@ tags:
  *2 [September 10, 2019—KB4515384 (OS Build 18362.356)](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384) 
  *2 cn_windows_10_business_editions_version_1903_updated_sept_2019_x64_dvd_2f5281e1.iso 
  ed2k://|file|cn_windows_10_business_editions_version_1903_updated_sept_2019_x64_dvd_2f5281e1.iso|5231140864|B1D5C4C401036B0B1EBA64476A95F338|/
+
  *3 [CreateSrsMedia 脚本](https://go.microsoft.com/fwlink/?linkid=867842) 
 
 *4 玩转Microsoft Teams Room系列1 - 部署前置条件与帐号创建 https://blog.51cto.com/nemotan/2480467
@@ -129,7 +137,7 @@ tags:
 
 欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
 
-<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom: 33%;" />
 
 
 
