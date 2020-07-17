@@ -34,6 +34,10 @@ tags:
 
 ![image_thumb40](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/mtrpcimage_thumb40_thumb5.png)
 
+> 使用CreateMedia.ps1后会自动生成SRSv2文件夹，之后一定会报错说操作系统版本号不对，所以要改一下以下json中的版本限制，以下为版本号限制的地方，你懂的....
+>
+> ![image-20200701093657955](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200701093657955.png)
+
 那么如何找到这个具体的windows版本下载呢？其实就是windows10 1903版本在2019年9月的时候的一个更新（如何下载windows iso？ 请参考 *2 )
 
 ![image_thumb41](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/mtrpcimage_thumb41_thumb3.png)
@@ -57,7 +61,7 @@ tags:
 
 > ps. 如果你下载回来的windows iso是中文版的话，它的名字应该叫“Windows 10 企业版”，那么脚本会报错说你使用的不是enterprise版本，那么需要改改脚本把enterprise改为企业版，如下：
 >
->     # The source media must have an image named "Windows 10 Enterprise" in its install.wim
+>     # **The source media must have an image named "Windows 10 Enterprise" in its install.wim**
 >     try {
 >         $img = Get-WindowsImage -ImagePath $InstallWim -Name "Windows 10 企业版"
 >     } 
