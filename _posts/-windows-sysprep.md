@@ -160,7 +160,7 @@ C:\Windows\System32\Sysprep\sysprep.exe /oobe /shutdown /unattend:"c:\wemeet\aut
 
 - [x] 无法使用配置好的帐号test自动登陆
 
-- [x] 弹出桌面后，过30秒才能调用出腾讯会议；修改注册表的userinit值解决；
+- [x] 弹出桌面后，过30秒才能调用出腾讯会议；修改注册表的userinit值解决；改进：直接在shell中运行
 
 - [x] 不要自动锁屏；使用注册表的方式解决
 
@@ -170,7 +170,11 @@ C:\Windows\System32\Sysprep\sysprep.exe /oobe /shutdown /unattend:"c:\wemeet\aut
 
 - [x] 进入到Tencent用户的时候，需要输入密码；使用无密码登陆解决。
 
-- [ ] 登陆后左上角可以切换新桌面退出腾讯rooms。-》这个问题在zoom rooms上面也有，先记录起来。
+- [x] 登陆后左上角可以切换新桌面退出腾讯rooms。
+
+  -》这个问题在zoom rooms上面也有，先记录起来。
+
+  -》在shell中运行，就不会有这个功能。
 
 - [x] 管理员账户也会自动进入腾讯rooms界面导致无法正常设置。-》增加kill.bat解决
 
@@ -185,17 +189,19 @@ C:\Windows\System32\Sysprep\sysprep.exe /oobe /shutdown /unattend:"c:\wemeet\aut
   
   -》守护进程的kill exploer需要定期执行，万一重开
   
-  -》守护进程要与腾讯会议同时打开~！-》解决
+  -》守护进程要与腾讯会议同时打开~！-》在shell中启动守护进程，解决
   
 - [ ] 腾讯rooms的bug，在开始会议后上方菜单栏可以往下拉并停在下拉的位置导致无法看到静音、退出视频会议的菜单栏。
 
-- [ ] 狂按登陆按键会导致腾讯会议软件Crash
+- [x] 狂按登陆按键会导致腾讯会议软件Crash
 
   -》因为在后台不停打开登陆窗口
 
+  -》导入守护进程
+
 - [ ] 封装OS如何与鸿合大屏（IFTP）做绑定？
 
-- [ ] 后期的Room软件，需要做一个管理设置功能，当前帐号需要注销
+- [x] 后期的Room软件，需要做一个管理设置功能，当前帐号需要注销-》已排上计划
 
 - [x] Sysprep shutdown 之后的wim再打包出来ISO，安装的OS没有跳过OOBE界面
 
@@ -203,20 +209,46 @@ C:\Windows\System32\Sysprep\sysprep.exe /oobe /shutdown /unattend:"c:\wemeet\aut
 
   -》使用wim的方式
 
-- [ ] ISO的交付方式有问题，是否用母盘的方式交付？
+- [x] ISO的交付方式有问题，是否用母盘的方式交付？硬盘的方式
 
-- [ ] [隐藏Tencent开机头像](https://www.top-password.com/blog/change-or-remove-user-account-picture-in-windows/)
-  C:\ProgramData\Microsoft\User Account Pictures
+- [ ] [重要] 禁用ALT+F4 -》硬件限制，无法
 
-- [ ] 更换桌面
-
-- [ ] [重要] 禁用ALT+F4
-
-- [ ] [恢复出厂设置](https://www.tenforums.com/tutorials/106215-factory-recovery-create-custom-recovery-partition.html)
+- [x] 恢复出厂设置-》通过clonezilla解决。
 
 - [ ] 若腾讯会议软件需要升级，这个过程是如何进行的？
 
 - [ ] 需要把Tencent帐号改为user权限，现在是admin权限
+
+- [ ] 避免消息通知，•禁用推送通知
+
+- [ ] Windows更新，输入密码，唤起小娜，休眠。
+
+- [ ] •PC睡眠唤醒无需输入密码
+
+- [ ] 功能测试增加多次重启与开关机后的系统启动时间，不得大于20秒
+
+- [ ] 大屏设备需要加入域测试功能
+
+- [ ] 正式的安装软件必须要有一个固定的安装路径，不能像现在以版本号为安装文件夹名字
+
+- [ ] 这个腾讯必须要在出厂前把正式的安装软件给到我们。
+
+- [ ] 1.完成Windows激活，需要确认一下
+
+- [ ] PPT Slide1中的Rooms设置操作系统，
+   - 这个设定是由Tencnet Rooms软件来做？还是由大屏的封装系统来做？
+   - 是否按Zoom的设置来参考？若没有UI默认把windows进行设置的话，公开下载的用户安装后是不是会有问题？
+   - 替换Windows启动页面，这个也是由Tencent Rooms软件来改吗？具体改哪个位置？还是通过大屏的开机动画来替换？
+
+- [ ] 正式的安装软件必须要有一个固定的安装路径，现在是以版本号为安装文件夹名字的。
+
+- [ ] 是否需要最终用户来完成这个Tencent Rooms的安装流程？还是大屏封装系统可以完成静默安装。
+
+- [ ] 请确认腾讯是否提供标准的Rooms开机指导？
+
+- [ ] 请确认退出Rooms是否把当前帐号（Tencent）注销？
+
+- [ ] 从不关闭显示器
 
 ## 配置好的封装系统之后，如何分发到其它设备上面？
 
@@ -372,6 +404,36 @@ oscdimg.exe -m -o -u2 -udfver102 -bootdata:2#p0,e,bC:\迅雷下载\IoT-from-jaso
    4.把wemeet文件夹复制到$oem$\\$1\ 目录下面，同时把autounattend.xml复制到u盘根目录
 
    <img src="C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200713095515235.png" alt="image-20200713095515235" style="zoom:50%;" />
+   
+   
+   
+### Recovery partition using Clonezilla
+
+1) 在ops上面创建一个fat32 20G的分区
+
+2）将clonezilla解压缩到FAT32分区的根目录下。
+链接： https://pan.baidu.com/s/1JGikeEt9T6sJt79Sf_A1Hw
+提取码：ojt8  
+
+![image-20200720110433349](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200720110433349.png)
+
+3）这两份文件替换 D:\EFI\boot里面的文件
+
+4）以上步骤完成后，可在开机POST LOGO处下按CTRL+F3实现备份/ CTRL+F4还原功能。
+
+<img src="C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200720110808541.png" alt="image-20200720110808541" style="zoom:33%;" />
+
+5）把创建分区放在应答里面，把clonezilla的复制放在init.bat init1中
+
+- 
+
+
+
+常规的做法
+
+<img src="C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200720100631188.png" alt="image-20200720100631188" style="zoom:70%;" />
+
+
 
 ## 全闭环式会议室系统体验
 
