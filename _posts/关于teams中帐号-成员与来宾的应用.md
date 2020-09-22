@@ -36,27 +36,35 @@ https://docs.microsoft.com/en-us/azure/active-directory/b2b/user-properties
 
 
 
+![image-20200807114956986](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200807114956986.png)
 
 
 
 
 
+可以直接在Teams中添加
 
+![image-20200807122303886](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200807122303886.png)
 
+在对方的邮箱当中，会收到一封邀请邮件
 
+![image-20200807122657225](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200807122657225.png)
 
+点开连接之后，会要求对方输入密码，但事实上整个过程没有要求设置过密码，所以我们点击下面的Forgot password来初始化密码
 
+<img src="C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200807122757033.png" alt="image-20200807122757033" style="zoom:50%;" />
 
+然后，接受审核，目的是授权对方访问我的个人数据
 
+<img src="C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200807123907385.png" alt="image-20200807123907385" style="zoom:50%;" />
 
+其实，所有的Teams用户都是基于Azure AD来作为用户管理的，在上面我在Teams中添加了nemotan@139.com到团队之后，在AAD中就已经创建好这个用户（但这时候的用户来源为Invited，意味着这个用户还在邀请阶段，没有真正地创建出来），在接受了上面的权限审核之后，AAD中的源则变为Microsoft Account。
 
+![image-20200807124302236](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200807124302236.png)
 
+在这时候，使用nemotan@139.com登陆到Teams后，就可以看到相应的团队
 
-
-
-
-
-
+![image-20200807124705528](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200807124705528.png)
 
 
 

@@ -14,6 +14,8 @@ tags:
 
 ## 整体流程
 
+
+
 ![auditmode configuration pass](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/images/dep-win8-l-auditmode.jpg)
 
 ![configuration passes overview](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/images/dep-win8-l-configpassesandexes.jpg)
@@ -376,7 +378,7 @@ Test
 4. 替换文件夹路径，如步骤二，并执行如下：
 
 ```
-copy c:\迅雷下载\IoT-from-jason\$oem$\$1\wemeet\autounattend.xml c:\迅雷下载\IoT-from-jason\ /y
+copy c:\迅雷下载\IoT-from-jason\$oem$\$1\wemeet\temp\autounattend.xml c:\迅雷下载\IoT-from-jason\ /y
 
 oscdimg.exe -m -o -u2 -udfver102 -bootdata:2#p0,e,bC:\迅雷下载\IoT-from-jason\boot\etfsboot.com#pEF,e,bC:\迅雷下载\IoT-from-jason\efi\microsoft\boot\efisys.bin C:\迅雷下载\IoT-from-jason\ c:\wemeetOS-IOT.iso
 ```

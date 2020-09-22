@@ -194,7 +194,22 @@ Get-CsOnlineUser | ?{$_.SipProxyAddress -like '*tangx*'} | fl *enter*,*name*
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/ivr121212)
 
+以下步骤：“设置菜单选项” 比较重要，它实现了播0后要转接的用户（如 王远），同时 “通过分机号拨叫” 实现直播分机号的功能，也就是所谓的二次拨号功能，在sfb时代原生是做不到的，只能靠第三方软件来实现。
+
+“通过分机号拨叫” 原文叫 Dial by extension, 用户听到提示音输入分机号后，Teams会拿这个分机号去AAD里面匹配用户
+
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/ivr131313)
+
+所以，我们需要在Active Directory or Azure Active Directory 上面为用户把分机号配置上，要求的栏位是：
+
+- HomePhone 
+- Mobile/MobilePhone 
+- TelephoneNumber/PhoneNumber 
+- OtherTelephone 
+
+分区格式也是有要求的：+<phonenumber>;ext=<extension> or x<extension>，我建议是使用 x8001 这种格式，因为容易区分出来。然后，你可以在M365管理中心中配置，也可以使用set-msoluser命令配置，然后需要等待2~12小时的同步时间才会生效。
+
+![image-20200812161947527](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200812161947527.png)
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/ivr141414)
 
