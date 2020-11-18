@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      完成课程送考试卷 | Microsoft Ignite Cloud Skills Challenge 2020
-subtitle:  Free Certification Exam
+title:      完成课程送考试卷 | MS Free Certification Exam
+subtitle:  Microsoft Ignite Cloud Skills Challenge 2020
 date:       2020-9-22
 author:  Nemo
 header-img: img/post-bg-universe.jpg
@@ -26,6 +26,8 @@ Microsoft Ignite 2020今天开始，为大家先带来一份免费的午餐，�
 非常简单的注册之后，我们需要等待项目组把挑战的邮件发送给邮箱之后，就可以开始进行学习了。
 
 <img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200922075210408.png" alt="image-20200922075210408" style="zoom:50%;" />
+
+
 
 
 
