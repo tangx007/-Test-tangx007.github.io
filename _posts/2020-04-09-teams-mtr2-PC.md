@@ -37,6 +37,12 @@ tags:
 > 使用CreateMedia.ps1后会自动生成SRSv2文件夹，之后一定会报错说操作系统版本号不对，所以要改一下以下json中的版本限制，以下为版本号限制的地方，你懂的....
 >
 > ![image-20200701093657955](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200701093657955.png)
+>
+> **2021/1/4号更新：**
+>
+> 其中的config.json里面的MediaViersion决定了MTR操作系统所使用的OS Build，只有完全符合OS Build才能顺利安装，所以就会出现一个很郁闷的事情：安装程序里面定义的MediaVersion版本号在微软官网上面找不到，安装的时候无论你用要求的OS版本是打死安装不出来的
+>
+> ![image-20210104161817706](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20210104161817706.png)
 
 那么如何找到这个具体的windows版本下载呢？其实就是windows10 1903版本在2019年9月的时候的一个更新（如何下载windows iso？ 请参考 *2 )
 
