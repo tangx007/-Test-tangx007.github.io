@@ -9,8 +9,19 @@ catalog: true
 tags:
 
 - Tencent-Meeting
-- 
+- Live Event
+- 网络直播
 ---
+
+# 前提条件
+
+- 一定要注意哦，腾讯会议免费版用户开启直播功能需要进行实名认证。
+
+<img src="https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210107105651884.png" alt="image-20210107105651884" style="zoom: 33%;" />
+
+- 如果您还想进行直播推流到其它直播平台（B站，Azure Media Service, 腾讯乐享）等，那么只支持腾讯会议企业版。
+
+# 开启直播
 
 开启腾讯会议的直播功能需要在预定会议的界面里面的打开，如下图：
 
