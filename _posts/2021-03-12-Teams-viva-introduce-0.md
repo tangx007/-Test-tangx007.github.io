@@ -12,8 +12,6 @@ tags:
 - Teams
 ---
 
-[TOC]
-
 今天介绍一个微软新的产品，Microsoft Viva，这是一个基于Microsoft Teams为载体的工作台方式的产品，我的理解是它类似于OA，宣称是增强企业文件与员工的在企业中的参与度的一个协作平台。
 
 通过设置 ‎Viva Topics‎，帮助用户在 ‎Office‎ 应用、‎SharePoint‎  和搜索结果中发现感兴趣的主题。你可以控制其使用方法，以及谁可以查看和编辑主题，在哪里显示主题。‎Viva Topics‎  将遵循你现有的隐私、安全和合规设置。
@@ -144,6 +142,8 @@ Viva Connections GA: https://techcommunity.microsoft.com/t5/microsoft-viva-blog/
 
 https://youtu.be/pWP27P1IftQ
 
-Viva Overview: https://www.microsoft.com/zh-cn/microsoft-viva/overview
+[Microsoft Viva Overview](https://www.microsoft.com/zh-cn/microsoft-viva/overview)
 
  [Announcing Viva Learning public preview coming in April](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/announcing-viva-learning-public-preview-coming-in-april/ba-p/2167343) 
+
+外链：https://blog.51cto.com/nemotan/2657394
