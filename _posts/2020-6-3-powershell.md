@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      使用Powershell 登陆MS Teams admin Powershell
+title:      【本方法已停用】使用Powershell 登陆MS Teams admin Powershell
 subtitle:  
 date:       2020-6-3
 author:  Nemo
@@ -11,6 +11,8 @@ tags:
 - Powershell
 - 
 ---
+
+> 微软已停用使用SkypeOnlineConnector的方法连接到Teams: https://techcommunity.microsoft.com/t5/microsoft-teams/skype-for-business-online-connector-retires-in-february-2021/td-p/2005963
 
 先安装SkypeOnlineConnector， https://www.microsoft.com/en-us/download/details.aspx?id=39366
 
