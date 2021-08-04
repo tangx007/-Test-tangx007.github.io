@@ -209,6 +209,12 @@ Get-CsOnlineUser | ?{$_.SipProxyAddress -like '*tangx*'} | fl *enter*,*name*
 
 分区格式也是有要求的：+<phonenumber>;ext=<extension> or x<extension>，我建议是使用 x8001 这种格式，因为容易区分出来。然后，你可以在M365管理中心中配置，也可以使用set-msoluser命令配置，然后需要等待2~12小时的同步时间才会生效。
 
+例如：
+
+- Example 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
+- Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+- Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+
 ![image-20210804201953359](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20210804201953359.png)
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/ivr141414)
