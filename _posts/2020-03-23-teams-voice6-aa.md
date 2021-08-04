@@ -209,7 +209,7 @@ Get-CsOnlineUser | ?{$_.SipProxyAddress -like '*tangx*'} | fl *enter*,*name*
 
 分区格式也是有要求的：+<phonenumber>;ext=<extension> or x<extension>，我建议是使用 x8001 这种格式，因为容易区分出来。然后，你可以在M365管理中心中配置，也可以使用set-msoluser命令配置，然后需要等待2~12小时的同步时间才会生效。
 
-![image-20200812161947527](C:\Users\Nemo\AppData\Roaming\Typora\typora-user-images\image-20200812161947527.png)
+![image-20210804201953359](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20210804201953359.png)
 
 ![image](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/ivr141414)
 

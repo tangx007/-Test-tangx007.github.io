@@ -35,7 +35,7 @@ Install-Module -Name PowerShellGet -Force -AllowClobber
 Install-Module -Name MicrosoftTeams -Force -AllowClobber #本命令需要科学上网进行下载
 ```
 
-<img src="C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20210622161042699.png" alt="image-20210622161042699" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210622161042699.png" alt="image-20210622161042699" style="zoom:50%;" />
 
 # 更新Teams Powershell 模块
 
@@ -46,10 +46,10 @@ Update-Module MicrosoftTeams
 # 登陆到 MS Teams后台
 
 ```
-Connect-MicrosoftTeams 
+Connect-MicrosoftTeams
 ```
 
-![image-20210622161929532](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20210622161929532.png)
+![image-20210622161929532](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210622161929532.png)
 
 # 卸载Teams Powershell 模块
 

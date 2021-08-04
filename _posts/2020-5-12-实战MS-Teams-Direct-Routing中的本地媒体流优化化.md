@@ -10,7 +10,7 @@ tags:
     - Teams-Voice
     - 
 ---
-> 未完成之作
+
 
 ### 本地媒体流优化回顾
 
@@ -27,7 +27,7 @@ tags:
    *路径是这样的 Teams Client >> Vietnam SBC >> PSTN*
 
 4. 模式二，**Only for local user mode**：若Vietnam配置了这种模式，则只有VN子网的用户媒体流会直接流经VN SBC，其他情况（在企业外部，在Indonesia子网，在SPG子网）的用户媒体流都会通过Proxy SBC的
-*VN子网的媒体流路径： VN Teams Client  >> Vietnam SBC >> PSTN*
+   *VN子网的媒体流路径： VN Teams Client  >> Vietnam SBC >> PSTN*
 
    *IDN子网的媒体流路径： IDN Teams Client  >> SPG SBC >> Vietnam SBC >> PSTN*
 

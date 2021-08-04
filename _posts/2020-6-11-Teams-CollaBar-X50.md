@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Microsoft Teams会议室中的新秀
-subtitle:  Collaboration Bar
+subtitle:  Collaboration Bar - Poly X50
 date:       2020-6-11
 author:  Nemo
 header-img: img/post-bg-universe.jpg
@@ -9,7 +9,7 @@ catalog: true
 tags:
 
 - Teams-Meeting
-- 
+- Poly
 ---
 
 >  *目前Teams社区有来自日本，新加坡以及美国的朋友，社区每月会组织进行Teams相关技术分享，同时每周五也会有由微软Office365高级产品经理Ares Chen进行的“Teams Friday下午茶”技术讲座分享，当然有疑问或建议也会有专家及时解答！*
@@ -58,7 +58,7 @@ MTR的设备一般都要配合电脑主机，显示屏，扬声器，麦克风�
 
 ![image-20200611162247730](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611162247730.png)
 
-搭配一块PoE供电的会议控制屏
+搭配一块PoE供电的会议控制屏TC8
 
 ![image-20200611171349170](https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/image-20200611171349170.png)
 

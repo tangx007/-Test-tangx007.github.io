@@ -18,7 +18,7 @@ Microsoft 365 的Powershell模块叫做MSOnline，它可以通过PS连接到M365
 
 以下为M365的管理后台，通过PS就可以对这个平台的管理，以提高系统管理员的日常工作效率。
 
-![image-20210623082040640](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20210623082040640.png)
+![image-20210623082040640](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210623082040640.png)
 
 # 安装MSOnline模块
 
