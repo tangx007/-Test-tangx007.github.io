@@ -82,7 +82,7 @@ tags:
 
 # 参考
 
-#### AudioCodes RXV80 https://www.microsoft.com/zh-cn/microsoft-teams/across-devices/devices/category/teams-rooms/20?filterIds=24&page=1
+#### [AudioCodes RXV80](https://www.microsoft.com/zh-cn/microsoft-teams/across-devices/devices/category/teams-rooms/20?filterIds=24&page=1) 
 
 [RXV80 Standalone Video Collaboration Bar User's and Administrator's Manual (audiocodes.com)](https://www.audiocodes.com/media/15892/rxv80-standalone-video-collaboration-bar-users-and-administrators-manual.pdf)
 
@@ -92,7 +92,7 @@ tags:
 
 欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
 
-<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom:30%;" />
+<img src="https://cdn.jsdelivr.net/gh/tangx007/tangx007.github.io/img/nemo-qrcode.jpg" style="zoom: 25%;" />
 
 ------
 
@@ -101,4 +101,4 @@ tags:
 MVP是经过严格挑选的专家团队，他们代表着技术最精湛且最具智慧的人，是对社区投入极大的热情并乐于助人的专家。MVP致力于通过演讲、论坛问答、创建网站、撰写博客、分享视频、开源项目、组织会议等方式来帮助他人，并最大程度地帮助微软技术社区用户使用Microsoft技术。
 更多详情请登录官方网站：https://mvp.microsoft.com/zh-cn
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2iaocPicCyec6oZGjbx1fexnFJO41rjD9Hh1aibCcq4JBuz9uFny7VYJ9am8g6yxyFYiaY5YouSDOBvm68ianrEibu7g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+<img src="https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/MVP_Logo_Horizontal_Preferred_Cyan300_CMYK_300ppi.png" alt="MVP_Logo_Horizontal_Preferred_Cyan300_CMYK_300ppi" style="zoom: 25%;" />
