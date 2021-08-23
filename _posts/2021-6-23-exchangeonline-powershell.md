@@ -16,6 +16,8 @@ tags:
 
 在2021年2月之前，以下基于Basic Authentication的身份验证方法来访问Exchange online的方式还能用，也就是所谓的EXO V1 module
 
+> 注意：以下命令已不适用。
+
 ```
 Set-ExecutionPolicy Unrestricted
 $exadmin='tangx@contoso.com'
