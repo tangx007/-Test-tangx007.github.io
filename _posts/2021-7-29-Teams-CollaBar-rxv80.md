@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Microsoft Teams 在小型会议中的轻量化解决方案
+title:      Microsoft Teams 在小型会议室中的轻量化解决方案
 subtitle:  Collaboration Bar - AudioCodes RXV80
 date:       2021-7-29
 author:  Nemo
