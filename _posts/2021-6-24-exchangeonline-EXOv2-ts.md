@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:       使用PowerShell连接到Exchange online后台(EXO V2 module)
+title:      无法进行OAuth验证导致EXO V2模块连接时报错
 subtitle:  M365 Powrshell 后台系列
 date:       2021-06-24
 author:  Nemo
