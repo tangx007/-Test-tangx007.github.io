@@ -92,8 +92,6 @@ tags:
 
 [RXV80 Standalone Video Collaboration Bar User's and Administrator's Manual (audiocodes.com)](https://www.audiocodes.com/media/15892/rxv80-standalone-video-collaboration-bar-users-and-administrators-manual.pdf)
 
-
-
 ------
 
 欢迎添加我的微信，分享您的见解与我的解决方案哦，让我们共同探索。
