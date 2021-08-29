@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:     使用Powershell连接到Microsoft 365后台
-subtitle:  M365 Powrshell 后台系列
+subtitle:  M365 Powrshell 后台系列 - Connect-MsolService
 date:       2021-6-23
 author:  Nemo
 header-img: img/post-bg-universe.jpg

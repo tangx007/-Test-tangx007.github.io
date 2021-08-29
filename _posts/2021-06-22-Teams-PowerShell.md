@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:     使用Powershell连接到Microsoft Teams Admin后台
-subtitle:  M365 Powrshell 后台系列
+subtitle:  M365 Powrshell 后台系列 - Connect-MicrosoftTeams
 date:       2021-6-22
 author:  Nemo
 header-img: img/post-bg-universe.jpg

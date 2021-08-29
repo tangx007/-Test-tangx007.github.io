@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:       使用PowerShell连接到Exchange online后台(EXO V2 module)
-subtitle:  M365 Powrshell 后台系列
+subtitle:  M365 Powrshell 后台系列 - Connect-ExchangeOnline
 date:       2021-06-23
 author:  Nemo
 header-img: img/post-bg-universe.jpg
