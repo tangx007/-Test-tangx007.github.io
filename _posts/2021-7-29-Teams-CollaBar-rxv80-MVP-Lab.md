@@ -25,13 +25,13 @@ tags:
 运营的博客及网站：
 
 - https://blog.51cto.com/nemotan
-- 51nemo.info????
+- https://www.51nemo.info/
 
 # 正文
 
 今天我会介绍一下Microsoft Teams硬件生态圈里面的一个会议室场景：小型会议室 或 电话间 。
 
-<img src="https://media.istockphoto.com/vectors/business-meeting-presentation-or-conference-in-office-business-people-vector-id874600208?k=6&m=874600208&s=612x612&w=0&h=jWhgxvd35K18908TMR_vbFm4ZDdroJcdeUcH7ps_pPY=" alt="查看源图像" style="zoom:50%;" />
+![image-20210915164819482](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210915164819482.png)
 
 当大家在使用微软Teams作为公司的办公协作平台的时候，就会遇到这样一个情况：“*公司有足够的预算来为大型会议室与培训室配备昂贵的会议设备*” ，但是对于小会议室/电话间 来说却没有必要投入这么高的成本来装备这些会议室，但同时小会议室又是企业里面使用频率最多，协作效率最高的办公场所之一。
 
