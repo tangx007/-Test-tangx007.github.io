@@ -12,10 +12,6 @@ tags:
 - AudioCodes
 ---
 
-[TOC]
-
-
-
 # 微软MVP研究实验室
 
 大家好，我是本期的MVP实验室研究员：谭国欣，今天我将介绍通过微软Teams认证的一款会议室终端来带领伙伴们认识微软Teams的后台是如何管理这些会议室终端的。接下来让我们开始这次的探索之旅吧！
@@ -55,11 +51,11 @@ tags:
 
 登陆上我们已有的Teams会议室帐号，就可以立即在这个小会议室上面使用Teams Meeting了，如下图：
 
-![image-20210917091506736](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20210917091506736.png)
+![image-20210917091506736](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210917091506736.png)
 
 我们可以从另一个Teams帐号上面呼叫到这个会议室，来实现点对点的呼叫
 
-<img src="C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20210917092228359.png" alt="image-20210917092228359" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210917092228359.png" alt="image-20210917092228359" style="zoom:50%;" />
 
 如果你的企业已经配置了Teams Phone System的话，还可以直接把手机用户邀请到Teams Meeting 里面来，如下图：
 
