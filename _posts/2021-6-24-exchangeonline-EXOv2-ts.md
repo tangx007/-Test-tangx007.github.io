@@ -14,7 +14,7 @@ tags:
 
 # 使用EXO V2模块连接时的故障现象
 
-对于Exchange online管理员来说，相信你会经常使用命令行的方式来进行日常的邮箱维护，之前连接到Exchange online的Powershell模块叫做EXO V1 （基于基本身份验证的连接方式），而从2020年开始微软已经慢慢地宣传另一种更加安装的连接方式：EXO V2的Powershell模块，这是一种基于OAuth 2.0的新式验证方式，安全，稳定，可靠。
+对于Exchange online管理员来说，相信你会经常使用命令行的方式来进行日常的邮箱维护，之前连接到Exchange online的Powershell模块叫做EXO V1 （基于基本身份验证的连接方式），而从2020年开始微软已经慢慢地宣传另一种更加安全的连接方式：EXO V2的Powershell模块，这是一种基于OAuth 2.0的新式验证方式，安全，稳定，可靠。
 
 但当你在尝试使用EXO V2来连接到Exchange online 时，可能会出现如下报错，本文将深入分析个中原因并由此加深理解这两种验证方式的异同。
 

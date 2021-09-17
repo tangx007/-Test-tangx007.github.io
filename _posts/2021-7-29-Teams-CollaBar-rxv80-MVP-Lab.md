@@ -12,6 +12,10 @@ tags:
 - AudioCodes
 ---
 
+[TOC]
+
+
+
 # 微软MVP研究实验室
 
 大家好，我是本期的MVP实验室研究员：谭国欣，今天我将介绍通过微软Teams认证的一款会议室终端来带领伙伴们认识微软Teams的后台是如何管理这些会议室终端的。接下来让我们开始这次的探索之旅吧！
@@ -29,7 +33,7 @@ tags:
 
 # 正文
 
-今天我会介绍一下Microsoft Teams硬件生态圈里面的一个会议室场景：小型会议室 或 电话间 。
+今天我会介绍一下Microsoft Teams硬件生态圈里面的一个会议室场景：小型会议室 或 电话间  是如何应用上Teams Meeting的能力的。
 
 ![image-20210915164819482](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210915164819482.png)
 
@@ -37,55 +41,33 @@ tags:
 
 如何为这些类型的会议室也能有Teams Meeting的能力呢？
 
-换句话说，用户无论在大中型会议室中可以使用Teams MTR会议终端开启Teams会议，同时在小型会议室中也能方便地开启Teams Meeting。
-
 微软的Teams硬件生态里面有一种会议设备叫做Collaboration bar（协作栏：一种集扬声器，麦克风，摄像头于一体的Teams会议终端）就可以较低成本的方式，简单快捷地部署在这些小地方上面。
 
-> 提起生态，微软早在Lync时代已经开始引入生态，围绕Lync这套统一沟通平台，周边会有各种各样的厂家提供不同的解决方案，例如Lync话机，认证语音网关，会议室解决方案SRS，第三方开发的Add-on, Lync SDK....
->
-> 到了Skype for business时代，也是沿用了Lync生态的模式，养活了不少的ISV与硬件厂家们，但是这两套解决方案都是基本本地服务器的私有化部署，维护难度大，迭代速度慢，这些周边的硬件如电话机，会议终端是没有办法集成到一个统一平台进行管理的。
->
-> 直到现在，Lync/Skype 升级到基于公有云的Teams解决方案后，我们发现其实只有位于Teams生态里面的硬件设备（如Teams话机，Teams会议设备，Teams门牌）即使它们不是同一个厂家，但都可以统一在Teams后台进行管理。我认为这就是基于SaaS应用的生态系统的优势之一，软件厂家把SaaS做好，硬件厂家把硬件做实。
-
-# 一致的Teams会议体验 
-
-今天体验的Teams会议设备是奥科公司的一款Collaboration bar，型号为RXV80，它只集成是麦克风与摄像头，扬声器的能力是沿用显示器的喇叭。
-
-与其它Teams MTR会议终端一样，因为操作界面完全一样，可以减少使用者的学习成本，这一点非常重要，微软对于所有的认证会议设备来说，一致的会议体验是必选项。
-
-以下就是RXV80，一个小小的会议终端，它配置的遥控器完成满足了所有的操作需求。当然可以外接一个无线键鼠来提高操作度。
+今天体验的Teams会议设备是奥科公司的一款Collaboration bar，型号为RXV80，它只集成是麦克风与摄像头，扬声器的能力是沿用显示器的喇叭，因为操作界面与MTR完全一样，可以减少使用者的学习成本，这一点非常重要，微软对于所有的认证会议设备来说，一致的会议体验是必选项，如下：
 
 ![image-20210729132654144](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210729132654144.png)
 
-只要是通过微软Teams认证的会议设备，整体风格与界面都是一样的，通过在Teams或Outlook里面预约了Teams会议室后，日程会推送到设备上面，临近会议开始时就可以点击遥控上面的Teams button一键入会，使用体验跟所有的MTR完全是一致。
+# 简单的安装
 
-![thumbnail image 1 of blog post titled  	 	 	  	 	 	 				 		 			 				 						 							The first collaboration bar for Microsoft Teams is now available! 							 						 					 			 		 	 			 	 	 	 	 	 ](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/178016i7C25DF13FC72BD3C/image-size/large?v=v2&px=999)
-
-如果你的企业已经配置了Teams Phone System的话，还可以直接把外部的PSTN用户邀请到会议室里面来，如下图：
-
-![image-20210823111548201](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210823111548201.png)
-
-# 连接触控大屏来提高Teams会议的交互体验
-
-接下来，我们只需要把Teams协作栏RXV80的网线，HDMI线，电源线连接上后即可使用Teams Meeting Room，但显然它还可以匹配更多的会议场景，如下图：
-
-- （标记1）可以配置一个扩展麦克风，从而提高会议室的收音能力。
-- （标记4）用户的笔记本电脑可以通过连接设备后面的HDMI IN接口，直接把电脑桌面共享到Teams Meeting当中。熟悉Teams MTR的朋友一定会知道这个非常好用的功能。
-- （标记5）现在的会议室里面，如果没有一块可以触控的大屏的话，应该是非常不方便的，那么RXV80的后置USB接口连接到触控大屏的触控USB之后，我们就可以启用Teams的白板功能与远端用户互动了。
+接下来，我们只需要把Teams协作栏RXV80的网线，HDMI线，电源线连接上后即可使用Teams Meeting Room。同时RXV80 还有扩展麦克风接口、HDMI IN接口与USB接口以适应还多的会议场景 
 
 ![image-20210729135020728](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210729135020728.png)
 
-但无论如何集音视频于一体的会议终端（bar形态）一定是未来会议室场景的重要形态之一。
+登陆上我们已有的Teams会议室帐号，就可以立即在这个小会议室上面使用Teams Meeting了，如下图：
 
-购买回来后，接电源，接网络，接显示，即可立即使用，并立即通过Teams admin portal进行设备管理。
+![image-20210917091506736](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20210917091506736.png)
 
-重点是无任何许可费用产生哦。
+我们可以从另一个Teams帐号上面呼叫到这个会议室，来实现点对点的呼叫
 
-![image-20210729135144226](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210729135144226.png)
+<img src="C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20210917092228359.png" alt="image-20210917092228359" style="zoom:50%;" />
 
-# 轻量的部署与管理
+如果你的企业已经配置了Teams Phone System的话，还可以直接把手机用户邀请到Teams Meeting 里面来，如下图：
 
-接着，我们来详细看看Teams Admin Center 对于会议终端能管理到一个什么程度？
+![image-20210823111548201](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20210823111548201.png)
+
+# 轻量化的后台管理
+
+接着，我们来详细看看Teams Admin Center对于会议终端能管理到一个什么程度？
 
 如下图，进入Teams Admin Center > 设备 > 协作栏，一旦设备登陆上Teams就可以直接在后台显示出来，并接受Teams admin的管理
 
@@ -115,7 +97,7 @@ tags:
 
 # 总结
 
-在小型会议室里面，使用微软的Teams协作栏方案（如文中介绍的奥科RXV80）可以：
+在小型会议室里面，我们今天使用了微软的Teams协作栏解决方案（如文中介绍的奥科RXV80）可以：
 
 - 快速地，低成本地，轻量化地部署到小型会议室当中。
 - 无论你使用哪个Teams认证的硬件厂家的会议设备，都可以直接注册到Teams Admin Center上面进行统一管理。
