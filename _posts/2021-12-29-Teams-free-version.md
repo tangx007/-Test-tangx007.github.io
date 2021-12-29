@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:     如何创建免费的Teams帐号并进行简单的使用
-subtitle:  MS Teams 极简使用入门
+subtitle:  MS Teams 使用入门
 date:       2021-12-29
 author:  Nemo
 header-img: img/post-bg-universe.jpg
