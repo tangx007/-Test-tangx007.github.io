@@ -44,6 +44,23 @@ Teams Meeting是沿用Microsoft Whiteboard作为它的白板共享的，相对�
 
 
 
+ user voice
+ Teams后台中的会议策略的“选择视频筛选器” 的超链接无效
+
+
+
+
+
+![image-20211229133101189](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20211229133101189.png)
+
+![image-20211229133330369](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20211229133330369.png)
+
+![image-20211229133404136](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20211229133404136.png)
+
+![image-20211229133439444](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20211229133439444.png)
+
+
+
 
 
 

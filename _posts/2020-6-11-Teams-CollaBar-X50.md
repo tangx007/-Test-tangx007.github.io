@@ -2,7 +2,7 @@
 layout:     post
 title:      Microsoft Teams会议室中的新秀
 subtitle:  Collaboration Bar - Poly X50
-date:       2020-6-11
+date:       2021-11-11
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
