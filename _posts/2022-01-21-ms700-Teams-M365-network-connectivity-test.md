@@ -16,35 +16,35 @@ tags:
 
 Microsoft 365 network connectivity test and dashboard https://connectivity.office.com/
 
-![Graphical user interface, text, application, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image002.jpg)
+![Graphical user interface, text, application, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image002.jpg)
 
  直接点击运行测试，它就会自动检测你的物理位置，并进行与M365的连接测试
 
-![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image004.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image004.jpg)
 
  在测试过程中，它会自动提示你下载并安装测试工具，安装完之后就会自动跑测试项目
 
-![Waterfall chart  Description automatically generated with medium confidence](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image006.jpg) ![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image008.jpg)
+![Waterfall chart  Description automatically generated with medium confidence](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image006.jpg) ![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image008.jpg)
 
 跑完之后，就会显示我与其它人相比的得分，显然我所在的网络与M365之间的连接不怎么样，只有60-80分。
 
-![Graphical user interface, application, Teams  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image010.jpg)
+![Graphical user interface, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image010.jpg)
 
 点开“详细“之后，可以更新详细地看到测试的结果，因为我是用长城带宽的，所以杯具了。
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image012.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image012.jpg)
 
 到Exchange online的测试结果
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image014.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image014.jpg)
 
 到Share point的测试结果
 
-![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image016.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image016.jpg)
 
  最重要的指标来了，到Teams的测试结果如下。影响语音质量的三大指标（掉包，延迟，抖动）就有两个不达标。
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image018.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image018.jpg)
 
  那么，通过这个简单的Microsoft 365 network connectivity 测试工具，能给我们另一个手段来预先测试所有网络对于Teams的质量影响，也可以为故障排错提供一些数据支撑。
 

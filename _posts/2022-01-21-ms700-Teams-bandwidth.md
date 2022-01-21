@@ -18,7 +18,7 @@ Teams 可以提供最佳的音频、视频和内容共享体验，而不管你�
 
 所以Teams可以根据你所在网络的带宽情况来调整音频、视频与共享内容的质量来给你带来流畅的使用体验。视频布局、视频分辨率和每秒视频帧数这几个因素会影响到Teams客户端的带宽使用情况，以下表格整理了这些场景下面的Teams带宽使用情况：
 
-![Table  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image002.png)
+![Table  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image002.png)
 
 以上只是介绍出每一个Teams 负载（音频、视频、共享）的带宽建议，但在实际使用中我们会混合了所有的Teams负载来使用，而不是单单地使用某一个负载，例如我们有时候会使用音频+视频的方式，有时候会音频+视频+共享，有时候只使用音频。
 
@@ -28,47 +28,47 @@ Teams 可以提供最佳的音频、视频和内容共享体验，而不管你�
 
 通过上述表格，我们只能大概了解到Teams在网络带宽上面占用情况，但是对于复杂多变的国内企业或跨国企业的环境，我们需要通过更加灵活的量化工具来协助我们评估Teams在生产环境中的使用情况，那么在Teams管理中心（下述 TAC）中的网络规划器Network Planner可以帮助我们完成这项工作，如下图：
 
-![Graphical user interface, application, Teams  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image004.jpg)
+![Graphical user interface, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image004.jpg)
 
  接下来，如何通过Network Planner来评估网络带宽预估呢？
 
 首先，通过Network Planner中的站点规划把企业内使用Teams的站点与人数先创建出来
 
-![Graphical user interface, application, Teams  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image006.jpg)
+![Graphical user interface, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image006.jpg)
 
 以下的ExpressRoute, WAN, Internet链接容量与PSTN出口可以按实际情况填写
 
-![Graphical user interface, text, application, Teams  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image008.jpg)
+![Graphical user interface, text, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image008.jpg)
 
 以下例子，我创建了上海站点（100M的出口带宽）与广州站点（10M的出口带宽）作为示例：
 
-![Graphical user interface, application, Teams  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image010.jpg)
+![Graphical user interface, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image010.jpg)
 
 接着，我们回到“角色” 来设置企业中的角色类型，微软已经预定义好三种角色类型（Teams会议室，远程办公，办公室人员），你可以根据需要再定义自己的角色来更加精准计算。
 
-![Graphical user interface, application, Teams  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image012.jpg)
+![Graphical user interface, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image012.jpg)
 
 通过添加角色可以我们可以为自定义角色选择不同的Teams应用负载
 
-![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image014.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image014.jpg)
 
  完成以上步骤之后，就是生成评估报告，如下示例进入：
 
 具体路径：网络规划器》规划名称》报告》添加报告
 
-![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image016.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image016.jpg)
 
 通过“二八原则”来分配办公室人员与远程办公人员的比例（80：20）
 
-![Graphical user interface, application, Teams  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image018.jpg)![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image020.jpg)
+![Graphical user interface, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image018.jpg)![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image020.jpg)
 
 最后点击“生成报告”后，即可生成报告。如下报告，就可以立即发现在只有10M出口带宽的广州站点如果启用了Teams视频的负载之后，就会超出带宽极限了。
 
-![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image022.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image022.jpg)
 
 通过图表的方式来呈现报告：
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\bandwidth\clip_image024.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/bandwidth/clip_image024.jpg)
 
  
 
