@@ -12,7 +12,21 @@ tags:
 -  
 ---
 
+​	
 
+# Allow members to send as or send on behalf of a group
+
+这个页面的图与步骤需要更新到新的EAC版本
+
+https://docs.microsoft.com/en-us/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide
+
+
+
+组创建域，这个翻译有问题
+
+https://docs.microsoft.com/zh-cn/microsoft-365/solutions/choose-domain-to-create-groups?view=o365-worldwide
+
+![image-20220203151306533](C:\Users\Nemo\Documents\GitHub\tangx007\img\image-20220203151306533.png)
 
 Teams Meeting当中无法像腾讯会议那样可以做批注
 
