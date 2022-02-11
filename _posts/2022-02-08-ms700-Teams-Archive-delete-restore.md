@@ -14,7 +14,7 @@ tags:
 
 随着公司的Teams团队的使用量增加，团队数量一定会日益增加的，这时候就会出现一些已经不经常使用的团队或者已经结项的团队，我们是否需要对这些闲置的团队作一下清理呢？所以本文会介绍关于Teams团队的存档、删除、还原的知识点与展示。
 
-\# 存档Teams团队
+# 存档Teams团队
 
 ‎首先，存档不是删除，而是被隐蔽而已。存档Teams团队时，该Teams团队的所有活动都将停止。存档Teams团队还会存档Teams团队及其关联网站集中的专用频道。但是，你仍然可以添加或删除成员以及更新角色，并且仍然可以在标准和私人频道、文件和聊天中查看所有团队活动，但不能再添加新的聊天、频道、文件等内容了。
 
@@ -22,17 +22,17 @@ tags:
 
 进入Teams管理中心-团队-管理团队-选中nemoTeamsSite示例团队-点击存档，即可把它进行存档
 
-![Graphical user interface, application  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image002.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image002.jpg)
 
 当然你还有机会把这个存档的团队设置为只读状态，如下
 
-![Graphical user interface, application, Teams  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image004.jpg)
+![Graphical user interface, application, Teams  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image004.jpg)
 
 存档后的团队不再显示在Teams上面，你需要通过搜索才能找到它。同时已不能再新增聊天、会话、频道etc. 直到一个合适的时间点，我们就可以针对这个存档团队进行删除操作了。
 
-![Graphical user interface, application  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image006.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image006.jpg)
 
-\# 删除Teams团队
+# 删除Teams团队
 
 公司的Teams团队可能会有大量敏感数据、财务数据、设计文件等等，真的要删除这些看似闲置了一段时间的团队吗？对的，我决定要删除了。但这是真的删除吗，删了就没有了哦。那不一定，在M365的删除总是有这样一条删除策略来防止管理员删除了有价值的数据或者是重要的文件，配置之前介绍的M365组过期策略，它的删除路径是这样子的：
 
@@ -46,37 +46,37 @@ tags:
 
 5、 如果你有创建Teams团队的保留策略的话，在硬删除之后，还可以通过eDiscovery把团队里面的内容找出来。
 
-![Diagram  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image008.jpg)
+![Diagram  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image008.jpg)
 
 选中相关的团队，点击删除即会进行软删除：
 
-![Graphical user interface, application  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image010.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image010.jpg)
 
 以上在Teams管理中心进行的只不过是软删除操作，要想知道真正的硬删除是在什么时候？可以到Azure管理中心中查看，如下：
 
 Azure管理中心-组-已删除的组-找到nemoM365Group组-永久删除日期，也就是软删除日期的30天之后就会把数据从微软的磁盘上面抹掉。
 
-![Graphical user interface, text, application, email  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image012.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image012.jpg)
 
-\# 还原Teams团队
+# 还原Teams团队
 
 如果我想把删除的团队还原呢？其实Teams本质上是基于Groups的，所以如果删除Teams其实就是删除了Group, 所以在deleted groups里面可以把删除的teams恢复，如下：
 
-![Graphical user interface, text, application  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image014.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image014.jpg)
 
-成功还原： ![Graphical user interface, text, application  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image016.jpg)
+成功还原： ![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image016.jpg)
 
 还原之后，我们回到Teams，再找到nemoTeamsSite团队可以发现里面的内容也是一样的被还原出来：
 
-![Graphical user interface, text, application  Description automatically generated](file:///https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image018.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image018.jpg)
 
  
 
-\# 总机
+# 总结
 
 以上是关于Teams团队的存档、删除与还原的介绍与展示，可以给大家一个对于这几种应用场景的感性认识，并且希望能帮忙到大家应用到实际工作当中。在下一文中我会基于此来介绍Teams的备份方案来解决当硬删除后，我们还有没有方法来进行数据恢复或查看。
 
-\# 参考 Reference 
+# 参考 Reference 
 
 https://docs.microsoft.com/en-us/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer?view=o365-worldwide#teams&WT.mc_id=M365-MVP-5003881
 

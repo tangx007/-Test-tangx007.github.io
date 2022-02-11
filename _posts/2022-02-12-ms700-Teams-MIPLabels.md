@@ -2,7 +2,7 @@
 layout:     post
 title:     信息安全与合规的神器 - 敏感度标签(MIP Label)
 subtitle:  Teams的安全与合规系列文章-1
-date:       2022-02-12
+date:      2022-02-12
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
