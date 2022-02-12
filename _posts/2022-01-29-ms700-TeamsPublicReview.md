@@ -32,11 +32,11 @@ tags:
 
 # Powershell参考
 
-  `Get-CsTeamsUpdateManagementPolicy`
-
-  `Set-CsTeamsUpdateManagementPolicy`
-
-`New-CsTeamsUpdateManagementPolicy`
+```
+Get-CsTeamsUpdateManagementPolicy
+Set-CsTeamsUpdateManagementPolicy
+New-CsTeamsUpdateManagementPolicy
+```
 
 ![Text  Description automatically generated with medium confidence](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/teamspublicreview/clip_image010.jpg)
 

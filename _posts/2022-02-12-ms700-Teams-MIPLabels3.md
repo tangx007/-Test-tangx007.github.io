@@ -8,7 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
 
-- Teams的日常治理与生命周期管理
+- Teams的安全与合规
 - MS-700-Teams认证考试 
 ---
 
@@ -248,6 +248,10 @@ Get started with sensitivity labels
 【发布/分配标签】Assign a label to an existing group in Azure portal
 
 [https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal?WT.mc_id=M365-MVP-5003881](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal?WT.mc_id=M365-MVP-5003881)
+
+【公众号链接】
+
+https://mp.weixin.qq.com/s?__biz=MzUwOTYzMjA3Nw==&mid=2247483769&idx=1&sn=eb373bd023c3c9f24a62707559835aa2&chksm=f90e0a5bce79834d8506f755800cbd7afd02e6afd01120b511734f3d0e35a5d612eb351c0703#rd
 
 ------
 
