@@ -26,11 +26,11 @@ MIP Label 就像一个信封一样可以被粘在这些数据上面，它有几�
 
 \-     随着文件跟随：由于MIP标签存储在文件和电子邮件的元数据中，因此无论内容保存或存储在哪里，标签都会随内容一起漫游。这种唯一标签将成为应用和实施您配置的策略的基础。‎ 
 
-![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image002-16445953336271.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image002-16445953336271.jpg)
 
 MIP标签有以下几个步骤来部署与实施敏感度标签：创建MIP标签、启用MIP标签、为MIP标签发布一个标签策略、终端用户在他们的文档中使用MIP 标签、M365安全合规平台基于文档的MIP标签进行强制的信息保护操作，如下图：
 
-![Diagram showing workflow for sensitivity labels.](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image004.png)
+![Diagram showing workflow for sensitivity labels.](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image004.png)
 
 # 如何开启MIP Labels
 
@@ -44,7 +44,7 @@ Azure AD 支持将 ‎‎Microsoft 365 合规性中心‎‎发布的敏感度�
 在运行中打开powershell ise
 ```
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image006-16445953336282.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image006-16445953336282.jpg)
 
 ```
 # 连接到AzureAD Preview
@@ -53,7 +53,7 @@ Import-Module AzureADPreview
 Connect-AzureAD
 ```
 
-![Graphical user interface, text  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image008-16445953336283.jpg)
+![Graphical user interface, text  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image008-16445953336283.jpg)
 
 ```
 # 获取 Azure AD 组织的当前组设置，如下图
@@ -62,14 +62,14 @@ $template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e4
 $setting = $template.CreateDirectorySetting()
 ```
 
-![img](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image010-16445953336284.jpg)
+![img](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image010-16445953336284.jpg)
 
 ```
 # 展示组信息
 $Setting.Values
 ```
 
-![Shape  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image012-16445953336285.jpg)
+![Shape  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image012-16445953336285.jpg)
 
 ```
 # 把EnableMIPLabels这个敏感度标签开关打开
@@ -77,7 +77,7 @@ $Setting["EnableMIPLabels"] = "True"
 $Setting.Values
 ```
 
-![Shape  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image014-16445953336296.jpg)
+![Shape  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image014-16445953336296.jpg)
 
 ```
 # 保存配置到AZ
@@ -89,7 +89,7 @@ Set-AzureADDirectorySetting -Id $grpUnifiedSetting.Id -DirectorySetting $setting
 get-AzureADDirectorySetting -Id $grpUnifiedSetting.Id | fl
 ```
 
-![Graphical user interface  Description automatically generated with low confidence](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image016-16445953336297.jpg)
+![Graphical user interface  Description automatically generated with low confidence](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image016-16445953336297.jpg)
 
 到此，MIP Labels就启用了，‎还需要将敏感度标签同步到 Azure AD‎。
 
@@ -103,7 +103,7 @@ Import-Module ExchangeOnlineManagement
 Connect-IPPSSession
 ```
 
-![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image018-16445953336298.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image018-16445953336298.jpg)
 
 # 把MIP标签同步到AAD
 
@@ -115,35 +115,35 @@ Execute-AzureAdLabelSync
 
 首先，我们需要先创建MIP Labels，打开M365安全与合规中心，进入信息保护-创建标签
 
-![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image020.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image020.jpg)
 
-![Graphical user interface, application, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image022.jpg)
+![Graphical user interface, application, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image022.jpg)
 
 定义此标签的范围，如文件、电子邮件、组和网站（经过上一节，我们已经把标签同步到AzureAD）…
 
-![Graphical user interface, text, application, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image024.jpg)
+![Graphical user interface, text, application, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image024.jpg)
 
 可以针对文件与电子邮件进行加密，与添加水印
 
-![Graphical user interface, text, application, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image026.jpg)
+![Graphical user interface, text, application, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image026.jpg)
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image028.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image028.jpg)
 
 MIP标签可以基于特定的文件内容进行自动标签
 
-![Graphical user interface, text, application, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image030.jpg)
+![Graphical user interface, text, application, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image030.jpg)
 
 控制内部和外部用户对标记的团队和 Microsoft 365 组的访问级别。
 
-![Graphical user interface, text, application, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image032.jpg)
+![Graphical user interface, text, application, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image032.jpg)
 
 通过上面的隐私和外部用户访问设置，我们可以使用MIP标签来统一管理Teams团队的隐私级别（公用还是专用），同时还可以控制外部用户是否能访问特定的Teams团队
 
-![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image034.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image034.jpg)
 
 简单几步之后，这个“设计图-机密”的MIP标签就完成创建。
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image036.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image036.jpg)
 
 > 需要同步的时间耗时：
 >
@@ -155,23 +155,23 @@ MIP标签可以基于特定的文件内容进行自动标签
 
 标签创建完成之后，需要把它应用/发布到相关的用户或用户组，使他们可以自由使用这些标签或强制使用标签（例如工程部门、研发部门、财务部门）
 
-![Graphical user interface, application  Description automatically generated with medium confidence](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image038.jpg)
+![Graphical user interface, application  Description automatically generated with medium confidence](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image038.jpg)
 
-![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image040.jpg)![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image042.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image040.jpg)![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image042.jpg)
 
 强制用户为文档打上标签
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image044.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image044.jpg)
 
-![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image046.jpg)、![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image048.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image046.jpg)、![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image048.jpg)
 
-![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image050.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image050.jpg)
 
-![Graphical user interface, text, application, email  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image052.jpg)
+![Graphical user interface, text, application, email  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image052.jpg)
 
 完成，可能需要24小时才能将标签发布到所选用户的应用
 
-![Graphical user interface, text, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image054.jpg)
+![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image054.jpg)
 
 # MIP Labels在Teams & SharePoint & Group & Doc上面的应用
 
@@ -179,17 +179,17 @@ MIP标签可以基于特定的文件内容进行自动标签
 
 因为我在标签策略中设置了必须应用MIP标签，所以我必须指定一个分配给我的MIP标签才能继续编辑以下这份来自女儿小学的登记表：
 
-![Graphical user interface, application, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image056.jpg)
+![Graphical user interface, application, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image056.jpg)
 
-![Graphical user interface, application, table, Word  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image058.jpg)
+![Graphical user interface, application, table, Word  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image058.jpg)
 
 同时，还同时强制为文档使用了页眉、页脚、水印。这些手段可以有效地防止企业的信息泄漏，甚至可以限制文件的转发、加密等等…
 
-![Graphical user interface, application, table, Excel  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image060.jpg)
+![Graphical user interface, application, table, Excel  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image060.jpg)
 
 再来看看Teams，当我创建一个Teams团队的时候，就会看到MIP标签，因为这个标签设置了只能使用专用团队，那么其余两个团队类型也变成不可用了。
 
-![Graphical user interface, application  Description automatically generated](C:\Users\Nemo\Documents\GitHub\tangx007\img\clip_image062.jpg)
+![Graphical user interface, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/clip_image062.jpg)
 
 # 许可要求
 
