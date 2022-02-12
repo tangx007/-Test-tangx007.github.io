@@ -231,27 +231,23 @@ MIP标签可以基于特定的文件内容进行自动标签
 
 Get started with sensitivity labels
 
-https://docs.microsoft.com/en-us/microsoft-365/compliance/get-started-with-sensitivity-labels?view=o365-worldwide&WT.mc_id=M365-MVP-5003881
+[https://docs.microsoft.com/en-us/microsoft-365/compliance/get-started-with-sensitivity-labels?view=o365-worldwide&WT.mc_id=M365-MVP-5003881](https://docs.microsoft.com/en-us/microsoft-365/compliance/get-started-with-sensitivity-labels?view=o365-worldwide&WT.mc_id=M365-MVP-5003881)
 
  【创建标签】Create and configure sensitivity labels and their policies
 
-https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide&WT.mc_id=M365-MVP-5003881
+[https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide&WT.mc_id=M365-MVP-5003881](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide&WT.mc_id=M365-MVP-5003881)
 
  【启用标签功能】Enable sensitivity label support in PowerShell
 
-https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell?WT.mc_id=M365-MVP-5003881 
+[https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell?WT.mc_id=M365-MVP-5003881](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell?WT.mc_id=M365-MVP-5003881 ) 
 
 【启用标签功能】How to enable sensitivity labels for containers and synchronize labels
 
-https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#how-to-enable-sensitivity-labels-for-containers-and-synchronize-labes&WT.mc_id=M365-MVP-5003881 
+[https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#how-to-enable-sensitivity-labels-for-containers-and-synchronize-labes&WT.mc_id=M365-MVP-5003881](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?view=o365-worldwide#how-to-enable-sensitivity-labels-for-containers-and-synchronize-labes&WT.mc_id=M365-MVP-5003881 ) 
 
 【发布/分配标签】Assign a label to an existing group in Azure portal
 
-https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal?WT.mc_id=M365-MVP-5003881
-
- Guide: How to use Microsoft Information Protection (MIP) sensitivity labels
-
-[https://sharegate.com/blog/guide-how-to-use-microsoft-information-protection-sensitivity-labels#:~:text=Sensitivity%20labels%3A%20Use%20case%20comparison%20table%20%20,Office%20fil%20...%20%202%20more%20rows%20](
+[https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal?WT.mc_id=M365-MVP-5003881](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal?WT.mc_id=M365-MVP-5003881)
 
 ------
 
