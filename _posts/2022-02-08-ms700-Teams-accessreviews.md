@@ -2,7 +2,7 @@
 layout:     post
 title:     Azure AD的访问评审功能在Teams团队中应用
 subtitle:  Teams的日常治理与生命周期管理系列文章-7
-date:       2022-02-20
+date:       2022-02-08
 author:  Nemo
 header-img: img/post-bg-universe.jpg
 catalog: true
