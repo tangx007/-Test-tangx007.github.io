@@ -36,7 +36,7 @@ Teams认证电话机排错步骤：
 
 Conditional Access >> Monitoring >> Sign in logs >> User Sign ins (Non-interactive) >> Filter所需要调查的用户名字与时间
 
-![image-20230201163030300](D:\Nemo-xps的文件\tangx007\img\image-20230201163030300.png)
+![image-20230201163030300](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230201163030300.png)
 
 # 对于Compliance Policy的检查
 
@@ -44,15 +44,15 @@ Conditional Access >> Monitoring >> Sign in logs >> User Sign ins (Non-interacti
 
 依次进入 Device >> Android >> Android Devices，发现刚刚登陆上的设备被标识为 Not Compliant，我们需要检查一下原因在哪里？
 
-![image-20230201145846335](D:\Nemo-xps的文件\tangx007\img\image-20230201145846335.png)
+![image-20230201145846335](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230201145846335.png)
 
 点击进入之后，再按如下进行 Device compliance，发现其中一条 合规策略有错误，就是那一条我专门设置了很多不符合Teams Phone规定的配置的策略。
 
-![image-20230201150214253](D:\Nemo-xps的文件\tangx007\img\image-20230201150214253.png)
+![image-20230201150214253](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230201150214253.png)
 
 再点击进去查看，看吧，一堆的Not compliant与Error。
 
-![image-20230201150458426](D:\Nemo-xps的文件\tangx007\img\image-20230201150458426.png)
+![image-20230201150458426](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230201150458426.png)
 
 # 对于Teams Phone的其它常见问题
 

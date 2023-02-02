@@ -31,7 +31,7 @@ tags:
 
 
 
-![image-20230202204341600](D:\Nemo-xps的文件\tangx007\img\image-20230202204341600.png)
+![image-20230202204341600](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202204341600.png)
 
 # 前期准备与规划
 
@@ -83,7 +83,7 @@ tags:
 
 [Enable SIP Gateway for the users in your organization](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#enable-sip-gateway-for-the-users-in-your-organization) , 如下配置即可：
 
-![image-20230202110337915](D:\Nemo-xps的文件\tangx007\img\image-20230202110337915.png)
+![image-20230202110337915](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202110337915.png)
 
 # 在SIP电话机的配置
 
@@ -99,7 +99,7 @@ tags:
 
 进入Automatic Provisioning >> Static URL >> Config URL为APAC URL >> Check Now，之后，电话机会自动重启并下载最新的固件并更新，务必注意的是不能拔电源线，不然固件刷新失败会变砖。如下图：
 
-![image-20230202111318639](D:\Nemo-xps的文件\tangx007\img\image-20230202111318639.png)
+![image-20230202111318639](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202111318639.png)
 
 # 两种登陆的方法
 
@@ -108,17 +108,17 @@ tags:
 - 已购买了 M365 Phone System许可，或 Teams Phone 许可，并分配给相关用户。
 - 已配置了 Teams Voice （三个选项：Calling Plan, Operator Connect, Direct Routing）。
 
-![image-20230202112015874](D:\Nemo-xps的文件\tangx007\img\image-20230202112015874.png)
+![image-20230202112015874](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202112015874.png)
 
 ## 第一种方法：SIP 电话机上面登陆
 
 非常简单，请SIP电话机的用户自行点击Sign in，按如下步骤即可登陆。Teams管理员无须界入。
 
-![image-20230202114741337](D:\Nemo-xps的文件\tangx007\img\image-20230202114741337.png)
+![image-20230202114741337](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202114741337.png)
 
 以下是我手上的四台奥科话机，都可以成功地登入Teams并正常使用。
 
-![image-20230202144722646](D:\Nemo-xps的文件\tangx007\img\image-20230202144722646.png)
+![image-20230202144722646](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202144722646.png)
 
 
 
@@ -128,19 +128,19 @@ tags:
 
 进入 Teams Devices >> Phones >> Provision devices
 
-![image-20230202155611687](D:\Nemo-xps的文件\tangx007\img\image-20230202155611687.png)
+![image-20230202155611687](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202155611687.png)
 
 点击Upload
 
-![image-20230202152912336](D:\Nemo-xps的文件\tangx007\img\image-20230202152912336.png)
+![image-20230202152912336](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202152912336.png)
 
 若你有多台电话机，可以批量上传电话机的Mac地址 （你需要收集话机的mac list）
 
-![image-20230202152739735](D:\Nemo-xps的文件\tangx007\img\image-20230202152739735.png)
+![image-20230202152739735](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202152739735.png)
 
 上传完成之后，选中电话机，并点击Gen Verification code，会生成一个验证码。
 
-![image-20230202153153967](D:\Nemo-xps的文件\tangx007\img\image-20230202153153967.png)
+![image-20230202153153967](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202153153967.png)
 
 神奇的操作来了，这时候，你需要请电话机用户在电话上面拨打 *55* + 验证码，例如：
 
@@ -152,7 +152,7 @@ tags:
 
 到此为止，本方法麻烦了Teams管理员两次，电话机用户两次，才能完成登陆，何谓精简？
 
-![image-20230202155358406](D:\Nemo-xps的文件\tangx007\img\image-20230202155358406.png)
+![image-20230202155358406](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202155358406.png)
 
 # 最后
 
