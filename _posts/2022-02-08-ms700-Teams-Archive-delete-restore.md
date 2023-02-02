@@ -70,7 +70,11 @@ Azure管理中心-组-已删除的组-找到nemoM365Group组-永久删除日期�
 
 ![Graphical user interface, text, application  Description automatically generated](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/archive-delete-restore/clip_image018.jpg)
 
- 
+# 还原命令
+
+Get-AzureADMSDeletedGroup and Restore-AzureADMSDeletedDirectoryObject
+
+
 
 # 总结
 
