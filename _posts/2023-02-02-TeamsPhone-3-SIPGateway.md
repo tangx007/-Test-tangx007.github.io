@@ -2,7 +2,7 @@
 layout:     post
 title:      Teams phone Deployment Playbook 系列文章
 subtitle:   Teams SIP Gateway可以让您的3PIP电话机满血复活
-date:       2023-02-01
+date:       2023-02-02
 author:  Nemo Tan
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -97,7 +97,7 @@ tags:
 
 本示例，我会手动把这个URL配置到电话机中，但实际的生产环境你更需要的是使用DHCP Option来推送这条URL到电话机。请参考话机厂商的支持文档。
 
-进入Automatic Provisioning >> Static URL >> Config URL为APAC URL >> Check Now，之后，电话机会自动重启并下载最新的固件并更新，务必注意的是不能拔电源线，不然固件刷新失败会变砖。如下图：
+进入Automatic Provisioning >> Static URL >> Config URL为APAC URL >> Check Now，之后，电话机会自动重启并下载最新的固件并更新，务必注意的是：不能拔电源线，不然固件刷新失败会变砖。如下图：
 
 ![image-20230202111318639](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202111318639.png)
 
@@ -148,15 +148,15 @@ tags:
 *55*331446
 ```
 
-你（Teams 管理员）再次在如下界面生成登陆码（步骤四），并发送给电话机用户，再次请他在浏览器上面进行验证与登陆。
+你（Teams 管理员）再次在如下界面生成登陆码（步骤四），并发送给电话机用户，再次请他在浏览器上面进行验证与登陆，最后完成电话机的Teams登陆。
 
-到此为止，本方法麻烦了Teams管理员两次，电话机用户两次，才能完成登陆，何谓精简？
+到此为止，本方法需要动用了Teams管理员两次，电话机用户两次，才能完成登陆，何谓精简？
 
 ![image-20230202155358406](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230202155358406.png)
 
 # 最后
 
-划重点：Skype for Business Online **will be permanently turned off on July 31, 2023**，换句说话，现网使用的3PIP 电话将会在2023年7月之后 Stop Working，而本文的Teams SIP Gateway正是这些电话机的替代方法。
+划重点：Skype for Business Online **will be permanently turned off on July 31, 2023**，换句说话，现网使用的3PIP 电话将会在2023年7月之后 Stop Working，而本文的Teams SIP Gateway 方案正是这些3PIP电话机的替代方案。
 
 # 参考
 
