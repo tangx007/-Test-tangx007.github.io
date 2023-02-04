@@ -14,7 +14,7 @@ tags:
 
 # 前言
 
-PSTN - 公共电话交换网络, 通俗地说就是使用手机打电话的网络。这也是Teams在企业通讯领域的一项重要功能之一，让Teams连接到PSTN就可以让Teams客户端可以打电话（这也是以前Skype for Business / Lync用户所熟知的功能之一）。为了数字化转型，为了迁移私有云到公有云，为了IT系统的更新迭代，大部分的SfB 客户都不得不把他们的系统升级到Teams，随之而来的就是通讯系统也要同步迁移到Teams上面，这是给IT Guys带来一些挑战。
+PSTN - 公共电话交换网络, 通俗地说就是使用手机打电话的网络。这也是Teams在企业通讯领域的一项重要功能，让Teams连接到PSTN就可以让Teams客户端可以打电话（这也是以前Skype for Business / Lync用户所熟知的功能之一）。为了数字化转型，为了迁移私有云到公有云，为了IT系统的更新迭代，大部分的SfB 客户都不得不把他们的系统升级到Teams，随之而来的就是通讯系统也要同步迁移到Teams上面，这也是给IT Guys带来一些挑战。
 
 当然还有相当一部分客户是从其它的通讯系统迁移到Teams Voice方案的，通过这样的整合来精简IT系统，节省多套系统运行的维护成本。
 
@@ -66,7 +66,7 @@ PSTN - 公共电话交换网络, 通俗地说就是使用手机打电话的网�
 我来介绍以下这个Direct Routing架构图：
 
 1. 最左边的Teams 客户端还是按之前的方式登陆上Teams，但他们已经被分配了Phone System 许可，因为他们需要有语音的能力。
-2. 这时候，需要一台Teams认证的SBC（SIP会话边界控制器，其实充当了语音网关的角色）来作为中间人让Teams Voice落地，这个对接微软称之为 Direct Routing，本质上就是基于TLS的SIP Trunk链接。这个链路的对接需要做很多的工作，例如Teams语音部分的配置、公网证书申请、公网DNS、防火墙、SBC配置....与此同时牵涉到的管理员也就多了。
+2. 这时候，需要一台Teams认证的SBC（SIP会话边界控制器，其实也可以充当语音网关的角色）来作为中间人让Teams 语音落地，这个对接 微软称之为 Direct Routing，本质上就是基于TLS的SIP Trunk链接。这个链路的对接需要做很多的工作，例如Teams语音部分的配置、公网证书申请、公网DNS、防火墙、SBC配置....与此同时牵涉到的管理员也就多了。
 3. SBC还要对接PSTN网络，可以通过SIP或数字中继或模拟线路，这部分基本上设备厂商会协助你完成。还有，若企业内部还有其它的PBX系统要连接（Voice Apps, Legacy PBX），SBC也可以一并完成这个工作，这样SBC突然就变成一个企业的语音中枢系统，让所有的通讯系统都能互通起来了。
 
 > 详细的Direct Routing规划与配置，请参阅我的一个系列文章：
@@ -75,7 +75,7 @@ PSTN - 公共电话交换网络, 通俗地说就是使用手机打电话的网�
 
 ![image-20230203162837092](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230203162837092.png)
 
-Direct Routing虽说是复杂，但也一定程度上增加了它的灵活性，Calling Plan适用于要求比较小的客户，但对于特殊的行业，特别的场景，奇怪的架构，不同的需求来说，Direct Rouing可以说能在架构图上面画一上一朵花（复杂），因为它支持了Teams Voice所有的高级功能，如本地语音流优化(LMO)、媒体旁路(Media Bypass)、分支机构存活(SBA)、经济路由、集成其它PBX，这些都是Calling Plan做不到的。
+Direct Routing虽说是复杂，但也一定程度上增加了它的灵活性，Calling Plan适用于要求比较小的客户，但对于特殊的行业，特别的场景，奇怪的架构，不同的需求来说，Direct Rouing可以说能在架构图上面画上一朵花（复杂），因为它支持了Teams Voice所有的高级功能，如本地语音流优化(LMO)、媒体旁路(Media Bypass)、分支机构存活(SBA)、经济路由、集成其它PBX，这些都是Calling Plan做不到的。
 
 ![image-20230203162846855](https://cdn.jsdelivr.net/gh/kristofftan/kristofftan.github.io/img/image-20230203162846855.png)
 
